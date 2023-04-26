@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Ver informacion de un usuarios en la base de datos" tests="6" skipped="0" failures="3" errors="0" timestamp="2023-04-26T18:05:06" hostname="LAPTOP-7C2GORMF" time="3.327">
+  <properties/>
+  <testcase name="Peticion exitosa" classname="Ver informacion de un usuarios en la base de datos" time="0.661">
+    <failure message="java.lang.AssertionError: &#10;Expected: &quot;Efrain&quot;&#10;     but: was &quot;Bruno 2&quot;&#13;&#10;&#10;Expected: &quot;efsolora@gmail.com&quot;&#10;     but: was &quot;bruno.fernandez.r@estudiantes.utec.edu.uy&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: &quot;Efrain&quot;
+     but: was &quot;Bruno 2&quot;
+
+Expected: &quot;efsolora@gmail.com&quot;
+     but: was &quot;bruno.fernandez.r@estudiantes.utec.edu.uy&quot;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.GetIdUserStepDefinition.recibo_respuesta_y_la_informacion_del_usuario_y(GetIdUserStepDefinition.java:64)
+	at ✽.recibo 200 respuesta y la informacion del usuario &quot;Efrain&quot;, &quot;efsolora@gmail.com&quot; y &quot;User&quot;(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/getuserid.feature:10)
+</failure>
+  </testcase>
+  <testcase name="Peticion exitosa" classname="Ver informacion de un usuarios en la base de datos" time="0.603">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;500&gt;.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.GetIdUserStepDefinition.recibo_respuesta_y_la_informacion_del_usuario_y(GetIdUserStepDefinition.java:64)
+	at ✽.recibo 200 respuesta y la informacion del usuario &quot;Andres&quot;, &quot;esogaviria@gmail.com.com&quot; y &quot;Admin&quot;(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/getuserid.feature:10)
+</failure>
+  </testcase>
+  <testcase name="Peticion exitosa" classname="Ver informacion de un usuarios en la base de datos" time="0.564">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;500&gt;.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.GetIdUserStepDefinition.recibo_respuesta_y_la_informacion_del_usuario_y(GetIdUserStepDefinition.java:64)
+	at ✽.recibo 200 respuesta y la informacion del usuario &quot;lisa&quot;, &quot;earrieta58@gmail.com.com&quot; y &quot;User&quot;(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/getuserid.feature:10)
+</failure>
+  </testcase>
+  <testcase name="Peticion fallida" classname="Ver informacion de un usuarios en la base de datos" time="0.549"/>
+  <testcase name="Peticion fallida" classname="Ver informacion de un usuarios en la base de datos" time="0.469"/>
+  <testcase name="Peticion fallida" classname="Ver informacion de un usuarios en la base de datos" time="0.48"/>
+  <system-out><![CDATA[Request method:	GET
+Request URI:	https://reto-q-backend-production.up.railway.app/user/getUser/6448009e290ed9efcf934420
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 150
+etag: W/"96-F3ubrnAd8qsnneiBULs9+NnA4t4"
+date: Wed, 26 Apr 2023 18:05:06 GMT
+server: railway
+
+{
+    "_id": "6448009e290ed9efcf934420",
+    "fullName": "Bruno 2",
+    "email": "bruno.fernandez.r@estudiantes.utec.edu.uy",
+    "level": "2",
+    "available": true,
+    "role": "User"
+}
+Request method:	GET
+Request URI:	https://reto-q-backend-production.up.railway.app/user/getUser/64481f6cfbc80a45d9c97945
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 500 Internal Server Error
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 78
+etag: W/"4e-tWYuIUMnteGqsMYQq/BNBWHqTyQ"
+date: Wed, 26 Apr 2023 18:05:07 GMT
+server: railway
+
+{
+    "statusCode": 500,
+    "message": "User not found!",
+    "error": "Internal Server Error"
+}
+Request method:	GET
+Request URI:	https://reto-q-backend-production.up.railway.app/user/getUser/64483a9bfbc80a45d9c97a4a
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 500 Internal Server Error
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 78
+etag: W/"4e-tWYuIUMnteGqsMYQq/BNBWHqTyQ"
+date: Wed, 26 Apr 2023 18:05:07 GMT
+server: railway
+
+{
+    "statusCode": 500,
+    "message": "User not found!",
+    "error": "Internal Server Error"
+}
+Request method:	GET
+Request URI:	https://reto-q-backend-production.up.railway.app/user/getUser/%20%2064481f6cfbc80a45d9c97945
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 500 Internal Server Error
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 197
+etag: W/"c5-tiIzRAWEMNfh9ivoRdIqo8K0tQQ"
+date: Wed, 26 Apr 2023 18:05:08 GMT
+server: railway
+
+{
+    "statusCode": 500,
+    "message": "Cast to ObjectId failed for value \"{ _id: '  64481f6cfbc80a45d9c97945' }\" (type Object) at path \"_id\" for model \"UserMongoModel\"",
+    "error": "Internal Server Error"
+}
+Request method:	GET
+Request URI:	https://reto-q-backend-production.up.railway.app/user/getUser/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 76
+etag: W/"4c-ukgxudIQY9DjTuvz0QcmdcTucS0"
+date: Wed, 26 Apr 2023 18:05:08 GMT
+server: railway
+
+{
+    "statusCode": 404,
+    "message": "Cannot GET /user/getUser/",
+    "error": "Not Found"
+}
+Request method:	GET
+Request URI:	https://reto-q-backend-production.up.railway.app/user/getUser/oiuoiuodiuwaid
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 500 Internal Server Error
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 185
+etag: W/"b9-E7kLYs9isR0+KR0qwU9hWbCWSBc"
+date: Wed, 26 Apr 2023 18:05:09 GMT
+server: railway
+
+{
+    "statusCode": 500,
+    "message": "Cast to ObjectId failed for value \"{ _id: 'oiuoiuodiuwaid' }\" (type Object) at path \"_id\" for model \"UserMongoModel\"",
+    "error": "Internal Server Error"
+}
+]]></system-out>
+  <system-err><![CDATA[abr. 26, 2023 1:05:06 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition que_estoy_en_el_API
+INFO: INICIA LA AUTOMATIZACION
+abr. 26, 2023 1:05:06 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition envio_la_peticion_get_con_el_del_usuario
+INFO: Realiza la peticion
+abr. 26, 2023 1:05:06 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition que_estoy_en_el_API
+INFO: INICIA LA AUTOMATIZACION
+abr. 26, 2023 1:05:07 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition envio_la_peticion_get_con_el_del_usuario
+INFO: Realiza la peticion
+abr. 26, 2023 1:05:07 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition que_estoy_en_el_API
+INFO: INICIA LA AUTOMATIZACION
+abr. 26, 2023 1:05:07 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition envio_la_peticion_get_con_el_del_usuario
+INFO: Realiza la peticion
+abr. 26, 2023 1:05:07 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition que_estoy_en_el_API_Q
+INFO: INICIA LA AUTOMATIZACION
+abr. 26, 2023 1:05:08 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition envio_la_peticion_get_con_el_invalido
+INFO: Realiza la peticion
+abr. 26, 2023 1:05:08 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition recibo_de_respuesta
+INFO: Se finaliza el step de la API
+abr. 26, 2023 1:05:08 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition que_estoy_en_el_API_Q
+INFO: INICIA LA AUTOMATIZACION
+abr. 26, 2023 1:05:08 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition envio_la_peticion_get_con_el_invalido
+INFO: Realiza la peticion
+abr. 26, 2023 1:05:08 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition recibo_de_respuesta
+INFO: Se finaliza el step de la API
+abr. 26, 2023 1:05:08 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition que_estoy_en_el_API_Q
+INFO: INICIA LA AUTOMATIZACION
+abr. 26, 2023 1:05:09 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition envio_la_peticion_get_con_el_invalido
+INFO: Realiza la peticion
+abr. 26, 2023 1:05:09 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition recibo_de_respuesta
+INFO: Se finaliza el step de la API
+]]></system-err>
+</testsuite>

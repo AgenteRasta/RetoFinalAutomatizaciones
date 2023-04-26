@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Eliminar pregunta" tests="21" skipped="0" failures="7" errors="0" timestamp="2023-04-26T16:24:46" hostname="DESKTOP-1MH7BUO" time="14.553">
+<testsuite name="Eliminar pregunta" tests="21" skipped="0" failures="7" errors="0" timestamp="2023-04-26T18:04:52" hostname="LAPTOP-7C2GORMF" time="13.677">
   <properties/>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="3.697">
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="1.627">
     <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
 
@@ -9,10 +9,10 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
 	at com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition.reciboUnDeRespuestaYEliminoLaPregunta(EliminarPreguntaStepDefinition.java:64)
-	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/Rasta/Desktop/AutomatizacionesRetoFinalDefinitivo/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
+	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
 </failure>
   </testcase>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.588">
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.691">
     <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
 
@@ -20,10 +20,10 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
 	at com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition.reciboUnDeRespuestaYEliminoLaPregunta(EliminarPreguntaStepDefinition.java:64)
-	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/Rasta/Desktop/AutomatizacionesRetoFinalDefinitivo/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
+	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
 </failure>
   </testcase>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.548">
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.7">
     <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
 
@@ -31,10 +31,10 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
 	at com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition.reciboUnDeRespuestaYEliminoLaPregunta(EliminarPreguntaStepDefinition.java:64)
-	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/Rasta/Desktop/AutomatizacionesRetoFinalDefinitivo/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
+	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
 </failure>
   </testcase>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.666">
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.597">
     <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
 
@@ -42,10 +42,10 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
 	at com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition.reciboUnDeRespuestaYEliminoLaPregunta(EliminarPreguntaStepDefinition.java:64)
-	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/Rasta/Desktop/AutomatizacionesRetoFinalDefinitivo/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
+	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
 </failure>
   </testcase>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.561">
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.592">
     <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
 
@@ -53,10 +53,10 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
 	at com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition.reciboUnDeRespuestaYEliminoLaPregunta(EliminarPreguntaStepDefinition.java:64)
-	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/Rasta/Desktop/AutomatizacionesRetoFinalDefinitivo/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
+	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
 </failure>
   </testcase>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.569">
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.605">
     <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
 
@@ -64,10 +64,10 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
 	at com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition.reciboUnDeRespuestaYEliminoLaPregunta(EliminarPreguntaStepDefinition.java:64)
-	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/Rasta/Desktop/AutomatizacionesRetoFinalDefinitivo/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
+	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
 </failure>
   </testcase>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.567">
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.61">
     <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
 
@@ -75,23 +75,23 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
 	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
 	at com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition.reciboUnDeRespuestaYEliminoLaPregunta(EliminarPreguntaStepDefinition.java:64)
-	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/Rasta/Desktop/AutomatizacionesRetoFinalDefinitivo/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
+	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
 </failure>
   </testcase>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.687"/>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.534"/>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.525"/>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.528"/>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.517"/>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.51"/>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.518"/>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.497"/>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.541"/>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.502"/>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.496"/>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.502"/>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.5"/>
-  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.499"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.972"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.593"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.572"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.554"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.547"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.559"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.633"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.545"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.55"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.54"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.542"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.561"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.552"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.535"/>
   <system-out><![CDATA[Request method:	DELETE
 Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489290
 Proxy:			<none>
@@ -110,7 +110,7 @@ access-control-allow-origin: *
 content-type: application/json; charset=utf-8
 content-length: 70
 etag: W/"46-+ypO62qrrekyt4xx1XRth2NhKDc"
-date: Wed, 26 Apr 2023 16:24:49 GMT
+date: Wed, 26 Apr 2023 18:04:52 GMT
 server: railway
 
 {
@@ -136,7 +136,7 @@ access-control-allow-origin: *
 content-type: application/json; charset=utf-8
 content-length: 70
 etag: W/"46-+ypO62qrrekyt4xx1XRth2NhKDc"
-date: Wed, 26 Apr 2023 16:24:50 GMT
+date: Wed, 26 Apr 2023 18:04:54 GMT
 server: railway
 
 {
@@ -162,7 +162,7 @@ access-control-allow-origin: *
 content-type: application/json; charset=utf-8
 content-length: 70
 etag: W/"46-+ypO62qrrekyt4xx1XRth2NhKDc"
-date: Wed, 26 Apr 2023 16:24:51 GMT
+date: Wed, 26 Apr 2023 18:04:54 GMT
 server: railway
 
 {
@@ -188,7 +188,7 @@ access-control-allow-origin: *
 content-type: application/json; charset=utf-8
 content-length: 70
 etag: W/"46-+ypO62qrrekyt4xx1XRth2NhKDc"
-date: Wed, 26 Apr 2023 16:24:52 GMT
+date: Wed, 26 Apr 2023 18:04:55 GMT
 server: railway
 
 {
@@ -214,7 +214,7 @@ access-control-allow-origin: *
 content-type: application/json; charset=utf-8
 content-length: 70
 etag: W/"46-+ypO62qrrekyt4xx1XRth2NhKDc"
-date: Wed, 26 Apr 2023 16:24:52 GMT
+date: Wed, 26 Apr 2023 18:04:56 GMT
 server: railway
 
 {
@@ -240,7 +240,7 @@ access-control-allow-origin: *
 content-type: application/json; charset=utf-8
 content-length: 70
 etag: W/"46-+ypO62qrrekyt4xx1XRth2NhKDc"
-date: Wed, 26 Apr 2023 16:24:53 GMT
+date: Wed, 26 Apr 2023 18:04:56 GMT
 server: railway
 
 {
@@ -266,7 +266,7 @@ access-control-allow-origin: *
 content-type: application/json; charset=utf-8
 content-length: 70
 etag: W/"46-+ypO62qrrekyt4xx1XRth2NhKDc"
-date: Wed, 26 Apr 2023 16:24:53 GMT
+date: Wed, 26 Apr 2023 18:04:57 GMT
 server: railway
 
 {
@@ -292,7 +292,7 @@ access-control-allow-origin: *
 content-type: text/html; charset=utf-8
 content-length: 4
 etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
-date: Wed, 26 Apr 2023 16:24:54 GMT
+date: Wed, 26 Apr 2023 18:04:57 GMT
 server: railway
 
 <html>
@@ -316,7 +316,7 @@ access-control-allow-origin: *
 content-type: text/html; charset=utf-8
 content-length: 4
 etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
-date: Wed, 26 Apr 2023 16:24:55 GMT
+date: Wed, 26 Apr 2023 18:04:58 GMT
 server: railway
 
 <html>
@@ -340,7 +340,7 @@ access-control-allow-origin: *
 content-type: text/html; charset=utf-8
 content-length: 4
 etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
-date: Wed, 26 Apr 2023 16:24:55 GMT
+date: Wed, 26 Apr 2023 18:04:59 GMT
 server: railway
 
 <html>
@@ -364,7 +364,7 @@ access-control-allow-origin: *
 content-type: text/html; charset=utf-8
 content-length: 4
 etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
-date: Wed, 26 Apr 2023 16:24:56 GMT
+date: Wed, 26 Apr 2023 18:04:59 GMT
 server: railway
 
 <html>
@@ -388,7 +388,7 @@ access-control-allow-origin: *
 content-type: text/html; charset=utf-8
 content-length: 4
 etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
-date: Wed, 26 Apr 2023 16:24:56 GMT
+date: Wed, 26 Apr 2023 18:05:00 GMT
 server: railway
 
 <html>
@@ -412,7 +412,7 @@ access-control-allow-origin: *
 content-type: text/html; charset=utf-8
 content-length: 4
 etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
-date: Wed, 26 Apr 2023 16:24:57 GMT
+date: Wed, 26 Apr 2023 18:05:01 GMT
 server: railway
 
 <html>
@@ -436,7 +436,7 @@ access-control-allow-origin: *
 content-type: text/html; charset=utf-8
 content-length: 4
 etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
-date: Wed, 26 Apr 2023 16:24:57 GMT
+date: Wed, 26 Apr 2023 18:05:01 GMT
 server: railway
 
 <html>
@@ -460,7 +460,7 @@ access-control-allow-origin: *
 content-type: text/html; charset=utf-8
 content-length: 4
 etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
-date: Wed, 26 Apr 2023 16:24:58 GMT
+date: Wed, 26 Apr 2023 18:05:02 GMT
 server: railway
 
 <html>
@@ -484,7 +484,7 @@ access-control-allow-origin: *
 content-type: text/html; charset=utf-8
 content-length: 4
 etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
-date: Wed, 26 Apr 2023 16:24:58 GMT
+date: Wed, 26 Apr 2023 18:05:02 GMT
 server: railway
 
 <html>
@@ -508,7 +508,7 @@ access-control-allow-origin: *
 content-type: text/html; charset=utf-8
 content-length: 4
 etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
-date: Wed, 26 Apr 2023 16:24:59 GMT
+date: Wed, 26 Apr 2023 18:05:03 GMT
 server: railway
 
 <html>
@@ -532,7 +532,7 @@ access-control-allow-origin: *
 content-type: text/html; charset=utf-8
 content-length: 4
 etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
-date: Wed, 26 Apr 2023 16:24:59 GMT
+date: Wed, 26 Apr 2023 18:05:03 GMT
 server: railway
 
 <html>
@@ -556,7 +556,7 @@ access-control-allow-origin: *
 content-type: text/html; charset=utf-8
 content-length: 4
 etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
-date: Wed, 26 Apr 2023 16:25:00 GMT
+date: Wed, 26 Apr 2023 18:05:04 GMT
 server: railway
 
 <html>
@@ -580,7 +580,7 @@ access-control-allow-origin: *
 content-type: text/html; charset=utf-8
 content-length: 4
 etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
-date: Wed, 26 Apr 2023 16:25:00 GMT
+date: Wed, 26 Apr 2023 18:05:05 GMT
 server: railway
 
 <html>
@@ -604,96 +604,96 @@ access-control-allow-origin: *
 content-type: text/html; charset=utf-8
 content-length: 4
 etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
-date: Wed, 26 Apr 2023 16:25:01 GMT
+date: Wed, 26 Apr 2023 18:05:05 GMT
 server: railway
 
 <html>
   <body>true</body>
 </html>
 ]]></system-out>
-  <system-err><![CDATA[abr. 26, 2023 11:24:47 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:24:47 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
-abr. 26, 2023 11:24:50 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:24:50 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
-abr. 26, 2023 11:24:51 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:24:51 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
-abr. 26, 2023 11:24:51 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:24:51 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
-abr. 26, 2023 11:24:52 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:24:52 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
-abr. 26, 2023 11:24:52 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:24:52 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
-abr. 26, 2023 11:24:53 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:24:53 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
-abr. 26, 2023 11:24:54 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:24:54 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
-abr. 26, 2023 11:24:54 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:24:54 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
-abr. 26, 2023 11:24:55 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:24:55 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
-abr. 26, 2023 11:24:55 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:24:55 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
-abr. 26, 2023 11:24:56 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:24:56 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
-abr. 26, 2023 11:24:56 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:24:56 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
-abr. 26, 2023 11:24:57 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:24:57 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
-abr. 26, 2023 11:24:57 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:24:57 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
-abr. 26, 2023 11:24:58 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:24:58 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
-abr. 26, 2023 11:24:58 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:24:58 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
-abr. 26, 2023 11:24:59 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:24:59 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
-abr. 26, 2023 11:24:59 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:24:59 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
-abr. 26, 2023 11:25:00 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:25:00 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
-abr. 26, 2023 11:25:00 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
-INFORMACIÓN: Se inicia la automatizacion de las preguntas
-abr. 26, 2023 11:25:00 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
-INFORMACIÓN: 
+  <system-err><![CDATA[abr. 26, 2023 1:04:52 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:52 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
+abr. 26, 2023 1:04:53 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:53 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
+abr. 26, 2023 1:04:54 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:54 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
+abr. 26, 2023 1:04:55 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:55 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
+abr. 26, 2023 1:04:55 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:55 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
+abr. 26, 2023 1:04:56 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:56 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
+abr. 26, 2023 1:04:56 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:56 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
+abr. 26, 2023 1:04:57 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:57 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
+abr. 26, 2023 1:04:58 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:58 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
+abr. 26, 2023 1:04:59 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:59 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
+abr. 26, 2023 1:04:59 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:59 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
+abr. 26, 2023 1:05:00 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:05:00 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
+abr. 26, 2023 1:05:00 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:05:00 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
+abr. 26, 2023 1:05:01 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:05:01 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
+abr. 26, 2023 1:05:01 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:05:01 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
+abr. 26, 2023 1:05:02 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:05:02 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
+abr. 26, 2023 1:05:03 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:05:03 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
+abr. 26, 2023 1:05:03 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:05:03 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
+abr. 26, 2023 1:05:04 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:05:04 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
+abr. 26, 2023 1:05:04 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:05:04 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
+abr. 26, 2023 1:05:05 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:05:05 P. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFO: 
 ]]></system-err>
 </testsuite>

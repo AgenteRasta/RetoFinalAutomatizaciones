@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-        features = {"src/test/resources/features"},
+        features = {"src/test/resources/features/crearpregunta.feature"},
         glue = {"com.sofkau.stepdefinitions"},
         tags = {"@CrearPregunta"}
 )

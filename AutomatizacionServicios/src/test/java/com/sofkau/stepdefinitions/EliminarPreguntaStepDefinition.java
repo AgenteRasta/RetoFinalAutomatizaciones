@@ -14,14 +14,14 @@ import org.junit.jupiter.api.Assertions;
 import java.util.List;
 import java.util.logging.Logger;
 
-import static com.sofkau.questions.ReturnJsonResponse.returnJsonResponse;
+import static com.sofkau.questions.ReturnApiJsonResponse.returnApiJsonResponse;
 import static com.sofkau.tasks.DoDelete.doDelete;
 import static com.sofkau.tasks.DoPost.doPost;
 import static com.sofkau.utils.ReqresResources.*;
 import static net.serenitybdd.screenplay.rest.questions.ResponseConsequence.seeThatResponse;
 
 public class EliminarPreguntaStepDefinition extends ApiSetUp {
-    public static Logger LOGGER = Logger.getLogger(String.valueOf(CrearPreguntaStepDefinition.class));
+    public static Logger LOGGER = Logger.getLogger(String.valueOf(EliminarPreguntaStepDefinition.class));
     int codigoRespuesta;
     JSONObject preguntaJson = null;
     JSONObject resBody = null;
@@ -60,7 +60,7 @@ public class EliminarPreguntaStepDefinition extends ApiSetUp {
     @Then("recibo un {int} de respuesta y elimino la pregunta")
     public void reciboUnDeRespuestaYEliminoLaPregunta(Integer code) {
         try{
-            actualResponse=returnJsonResponse().answeredBy(actor);
+            actualResponse=returnApiJsonResponse().answeredBy(actor);
             actor.should(
                     seeThatResponse("El codigo de respuesta es: "+ actualResponse.getStatusCode(),
                             codigo -> codigo.statusCode(code))

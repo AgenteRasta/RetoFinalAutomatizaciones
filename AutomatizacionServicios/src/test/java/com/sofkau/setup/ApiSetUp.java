@@ -2,6 +2,7 @@ package com.sofkau.setup;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.rest.abilities.CallAnApi;
+import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.PropertyConfigurator;
 
 import static com.sofkau.utils.Log4jValues.LOG4J_PROPERTY_PATH;
@@ -10,8 +11,8 @@ public class ApiSetUp {
     protected Actor actor = new Actor("Juanes");
 
     protected void setUp(String urlBase){
-       // setUpLog4j();
-        //BasicConfigurator.configure();
+       setUpLog4j();
+        BasicConfigurator.configure();
         actorCallAnApi(urlBase);
     }
 

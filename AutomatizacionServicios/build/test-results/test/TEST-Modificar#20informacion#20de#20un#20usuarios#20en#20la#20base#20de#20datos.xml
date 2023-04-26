@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Modificar informacion de un usuarios en la base de datos" tests="4" skipped="0" failures="4" errors="0" timestamp="2023-04-26T18:05:17" hostname="LAPTOP-7C2GORMF" time="2.509">
+  <properties/>
+  <testcase name="Peticion exitosa" classname="Modificar informacion de un usuarios en la base de datos" time="0.642">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.PutUserStepDefinition.recibo_como_respuesta(PutUserStepDefinition.java:59)
+	at ✽.recibo 200 como respuesta(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/putuser.feature:10)
+</failure>
+  </testcase>
+  <testcase name="Peticion exitosa" classname="Modificar informacion de un usuarios en la base de datos" time="0.605">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;JSON path fullName doesn't match.&#10;Expected: Efrains&#10;  Actual: Bruno 2&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+JSON path fullName doesn't match.
+Expected: Efrains
+  Actual: Bruno 2
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.PutUserStepDefinition.recibo_como_respuesta(PutUserStepDefinition.java:59)
+	at ✽.recibo 200 como respuesta(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/putuser.feature:10)
+</failure>
+  </testcase>
+  <testcase name="Peticion exitosa" classname="Modificar informacion de un usuarios en la base de datos" time="0.543">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.PutUserStepDefinition.recibo_como_respuesta(PutUserStepDefinition.java:59)
+	at ✽.recibo 200 como respuesta(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/putuser.feature:10)
+</failure>
+  </testcase>
+  <testcase name="Peticion exitosa" classname="Modificar informacion de un usuarios en la base de datos" time="0.718">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.PutUserStepDefinition.recibo_como_respuesta(PutUserStepDefinition.java:59)
+	at ✽.recibo 200 como respuesta(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/putuser.feature:10)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Request method:	PUT
+Request URI:	https://reto-q-backend-production.up.railway.app/user/updateUser/64481f6cfbc80a45d9c97945
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fullName": "Andres",
+    "email": "esogaviria@gmail.com",
+    "level": "3",
+    "available": true,
+    "values": "true",
+    "role": "User"
+}
+HTTP/1.1 404 Not Found
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 66
+etag: W/"42-eP4IlQrjzv2ZV7q6fwUsyWxQEaY"
+date: Wed, 26 Apr 2023 18:05:17 GMT
+server: railway
+
+{
+    "statusCode": 404,
+    "message": "User not found!",
+    "error": "Not Found"
+}
+Request method:	PUT
+Request URI:	https://reto-q-backend-production.up.railway.app/user/updateUser/6448009e290ed9efcf934420
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fullName": "Efrains",
+    "email": "efsolora@gmail.com",
+    "level": "2",
+    "available": true,
+    "values": "true",
+    "role": "User"
+}
+HTTP/1.1 200 OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 117
+etag: W/"75-GAr++YX29BPtdkhJ3sNl1n1w43U"
+date: Wed, 26 Apr 2023 18:05:18 GMT
+server: railway
+
+{
+    "fullName": "Bruno 2",
+    "email": "bruno.fernandez.r@estudiantes.utec.edu.uy",
+    "role": "User",
+    "level": "2",
+    "available": true
+}
+Request method:	PUT
+Request URI:	https://reto-q-backend-production.up.railway.app/user/updateUser/64483a9bfbc80a45d9c97a4a
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fullName": "laura",
+    "email": "earrieta5928@gmail.com",
+    "level": "3",
+    "available": true,
+    "values": "true",
+    "role": "Admin"
+}
+HTTP/1.1 404 Not Found
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 66
+etag: W/"42-eP4IlQrjzv2ZV7q6fwUsyWxQEaY"
+date: Wed, 26 Apr 2023 18:05:18 GMT
+server: railway
+
+{
+    "statusCode": 404,
+    "message": "User not found!",
+    "error": "Not Found"
+}
+Request method:	PUT
+Request URI:	https://reto-q-backend-production.up.railway.app/user/updateUser/64483a9bfbc80a45d9c97a4a
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fullName": "laura",
+    "email": "earrieta5928@gmail.com",
+    "level": "3",
+    "available": true,
+    "values": "true",
+    "role": "User"
+}
+HTTP/1.1 404 Not Found
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 66
+etag: W/"42-eP4IlQrjzv2ZV7q6fwUsyWxQEaY"
+date: Wed, 26 Apr 2023 18:05:19 GMT
+server: railway
+
+{
+    "statusCode": 404,
+    "message": "User not found!",
+    "error": "Not Found"
+}
+]]></system-out>
+  <system-err><![CDATA[abr. 26, 2023 1:05:17 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition que_estoy_en_el_API_Reto_Q
+INFO: INICIA LA AUTOMATIZACION
+abr. 26, 2023 1:05:17 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition envio_la_peticion_put_con_el_del_usuario_con_los_datos
+INFO: Realiza la peticion
+abr. 26, 2023 1:05:17 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition que_estoy_en_el_API_Reto_Q
+INFO: INICIA LA AUTOMATIZACION
+abr. 26, 2023 1:05:18 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition envio_la_peticion_put_con_el_del_usuario_con_los_datos
+INFO: Realiza la peticion
+abr. 26, 2023 1:05:18 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition que_estoy_en_el_API_Reto_Q
+INFO: INICIA LA AUTOMATIZACION
+abr. 26, 2023 1:05:18 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition envio_la_peticion_put_con_el_del_usuario_con_los_datos
+INFO: Realiza la peticion
+abr. 26, 2023 1:05:18 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition que_estoy_en_el_API_Reto_Q
+INFO: INICIA LA AUTOMATIZACION
+abr. 26, 2023 1:05:19 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition envio_la_peticion_put_con_el_del_usuario_con_los_datos
+INFO: Realiza la peticion
+]]></system-err>
+</testsuite>

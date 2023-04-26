@@ -154,7 +154,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-04-2023 11:02</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-04-2023 11:38</span>
     <br style="clear:left"/>
 </div>
 
@@ -189,9 +189,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">verificar logout
+                                <span class="error-color">verificar logout
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -208,16 +208,50 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">No such window exception: no such window: target window already closed</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchWindowException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.sofkau.tasks.AbrirPaginaInicial.performAs(AbrirPaginaInicial.java:16)<br />com.sofkau.stepdefinitions.Prueba.queElUsuarioEstaEnLaPaginaPrincipal(Prueba.java:18)<br />io.cucumber.java.Invoker.invoke(Invoker.java:27)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:49)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:51)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:67)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:227)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="308e852ab9038ee2342b2e927382eee5eceac53e8a0058841cff6c628091a377.png" title=" Given que el usuario esta en la pagina principal" width="1854"/>
-                <img src="308e852ab9038ee2342b2e927382eee5eceac53e8a0058841cff6c628091a377.png" title=" Juanes abrir pagina inicial" width="1854"/>
-                <img src="308e852ab9038ee2342b2e927382eee5eceac53e8a0058841cff6c628091a377.png" title=" Juanes opens the https://despliegueretoq.web.app/app-home" width="1854"/>
-                <img src="1034fc9e4f3cb657f9ae98c3748d2aab885bb77226cd60721cbe74899de111de.png" title=" Juanes opens the https://despliegueretoq.web.app/app-home (completed)" width="1854"/>
-                <img src="1034fc9e4f3cb657f9ae98c3748d2aab885bb77226cd60721cbe74899de111de.png" title=" Juanes abrir pagina inicial (completed)" width="1854"/>
-                <img src="1034fc9e4f3cb657f9ae98c3748d2aab885bb77226cd60721cbe74899de111de.png" title=" Given que el usuario esta en la pagina principal (completed)" width="1854"/>
-                <img src="1034fc9e4f3cb657f9ae98c3748d2aab885bb77226cd60721cbe74899de111de.png" title=" When el usuario inicia sesion y presiona el boton logout" width="1854"/>
-                <img src="1034fc9e4f3cb657f9ae98c3748d2aab885bb77226cd60721cbe74899de111de.png" title=" Then vuelve a la pagina principal: <span class='success-color'>SUCCESS</span>" width="1854"/>
+                <img src="eafeaa3fb7da7e39c2f6290aacb5c03acde6480fb90e8e470f11dc51538fb87f.png" title=" Given que el usuario esta en la pagina principal" width="1366"/>
+                <img src="eafeaa3fb7da7e39c2f6290aacb5c03acde6480fb90e8e470f11dc51538fb87f.png" title=" Juanes abrir pagina inicial" width="1366"/>
+                <img src="eafeaa3fb7da7e39c2f6290aacb5c03acde6480fb90e8e470f11dc51538fb87f.png" title=" Juanes opens the https://despliegueretoq.web.app/app-home: <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 

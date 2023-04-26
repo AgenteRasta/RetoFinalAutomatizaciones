@@ -20,7 +20,7 @@ import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver
 public class SetUpWeb {
 
     private static final String SWITCHES = "--remote-allow-origins=*";
-    private static final String ACTOR = "Juanes";
+    private static final String ACTOR = "Usuario";
 
     @Managed()
     protected WebDriver webDriver;

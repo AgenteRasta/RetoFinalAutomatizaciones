@@ -16,7 +16,7 @@ import static org.hamcrest.Matchers.greaterThan;
 import java.util.List;
 import java.util.logging.Logger;
 
-import static com.sofkau.questions.ReturnJsonResponse.returnJsonResponse;
+import static com.sofkau.questions.ReturnApiJsonResponse.returnApiJsonResponse;
 import static com.sofkau.tasks.DoPost.doPost;
 import static com.sofkau.utils.ReqresResources.*;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
@@ -47,7 +47,7 @@ public class CrearPreguntaStepDefinition extends ApiSetUp {
     }
 
     @When("cuando envio la informacion de una pregunta mediante el {int}")
-    public void cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl(Integer index) throws ParseException {
+    public void cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl(Integer index) {
         try{
             LOGGER.info("Se selecciona el json que sera enviado para probar y se envia el recurso de la url");
             lines=Funciones.readTextFile("datosPruebasPreguntas.txt");
@@ -70,7 +70,7 @@ public class CrearPreguntaStepDefinition extends ApiSetUp {
         try {
             LOGGER.info("Inician los asserts");
             codigoRespuesta=codigo;
-            actualResponse=returnJsonResponse().answeredBy(actor);
+            actualResponse=returnApiJsonResponse().answeredBy(actor);
             actor.should(
                     seeThatResponse("El codigo de respuesta es: "+ actualResponse.getStatusCode(),
                             code -> code.statusCode(codigo))

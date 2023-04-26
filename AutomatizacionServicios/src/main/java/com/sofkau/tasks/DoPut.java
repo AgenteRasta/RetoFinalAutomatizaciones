@@ -1,12 +1,10 @@
 package com.sofkau.tasks;
-
 import com.sofkau.interactions.OurPut;
 import io.restassured.http.ContentType;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 
 public class DoPut implements Task {
-
     private String resource;
     private Object requestBody;
 
