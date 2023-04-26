@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="Crear usuario ne la base de datos" skipped="0" tests="12" time="7.6" timestamp="2023-04-26 10:25:37"><testcase name="Peticion exitosa"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;500&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;500&gt;.
+&#13;
+com.sofkau.stepdefinitions.PostUserStepDefinition.recibo_y_la_informacion_del_usuario_creado(PostUserStepDefinition.java:56)&#13;
+✽.recibo 201 y la informacion del usuario creado(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/postuser.feature:9)&#13;
+</system-err></testcase><testcase name="Peticion fallida"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+&#13;
+com.sofkau.stepdefinitions.PostUserStepDefinition.recibo(PostUserStepDefinition.java:112)&#13;
+✽.recibo 400(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/postuser.feature:20)&#13;
+</system-err></testcase></testsuite>

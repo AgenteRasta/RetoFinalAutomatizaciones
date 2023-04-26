@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="Modificar informacion de un usuarios en la base de datos" skipped="0" tests="4" time="2.56" timestamp="2023-04-26 10:25:45"><testcase name="Peticion exitosa"><failure message="1 expectation failed.&#10;JSON path mail doesn't match.&#10;Expected: esogaviria@gmail.com&#10;  Actual: null&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path mail doesn't match.
+Expected: esogaviria@gmail.com
+  Actual: null
+</failure><system-err>1 expectation failed.
+JSON path mail doesn't match.
+Expected: esogaviria@gmail.com
+  Actual: null
+&#13;
+com.sofkau.stepdefinitions.PutUserStepDefinition.recibo_como_respuesta(PutUserStepDefinition.java:59)&#13;
+✽.recibo 200 como respuesta(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/putuser.feature:10)&#13;
+</system-err></testcase></testsuite>

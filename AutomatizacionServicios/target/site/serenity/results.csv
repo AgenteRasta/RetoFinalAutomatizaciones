@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Ver informacion de un usuarios en la base de datos","Peticion exitosa","SUCCESS","2023-04-26T10:25:26.5128005-05:00[America/Bogota]","0.0","7.32"
+"Ver informacion de un usuarios en la base de datos","Peticion fallida","SUCCESS","2023-04-26T10:25:33.8433393-05:00[America/Bogota]","0.0","1.54"
+"Crear usuario ne la base de datos","Peticion exitosa","FAILURE","2023-04-26T10:25:37.7237476-05:00[America/Bogota]","0.0","3.18"
+"Crear usuario ne la base de datos","Peticion fallida","FAILURE","2023-04-26T10:25:40.9152943-05:00[America/Bogota]","0.0","4.42"
+"Modificar informacion de un usuarios en la base de datos","Peticion exitosa","FAILURE","2023-04-26T10:25:45.5213534-05:00[America/Bogota]","0.0","2.56"
