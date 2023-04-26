@@ -1,8 +1,12 @@
 package com.sofkau.utils;
 
 public enum ReqresResources {
-    REQRES_BASE_URL("https://reqres.in/"),
-    REGISTER_SUCCESSFUL_RESOURCE("api/register");
+    BASE_URL("https://reto-q-backend-production.up.railway.app/"),
+    RECURSO_VER_TODOS("question/get-all"),
+    RECURSO_CREAR_PREGUNTA("question/new"),
+    RECURSO_ELIMINAR_PREGUNTA("question/delete/");
+
+
 
     private final String  value;
 

@@ -1,0 +1,345 @@
+{
+        "_id": "6445dd2187ccd7fd3c489290",
+        "type": "",
+        "topic": "Arquitectura Empresarial",
+        "level": "2",
+        "sentence": "¿Qué patrón arquitectónico se enfoca en la separación de responsabilidades y la escalabilidad de los componentes de un sistema?",
+        "options": [
+            "Microservicios",
+            "Monolito",
+            "Serverless",
+            "API Gateway"
+        ],
+        "answer": [
+            "Microservicios",
+            "Serverless"
+        ]
+    }
+    {
+        "_id": "6445dd2187ccd7fd3c489291",
+        "type": "multiple",
+        "topic": "",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ",
+            "ZeroMQ"
+        ],
+        "answer": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ"
+        ]
+    }
+{
+        "_id": "6445dd2187ccd7fd3c489292",
+        "type": "multiple",
+        "topic": "Arquitectura Empresarial",
+        "level": "",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ",
+            "ZeroMQ"
+        ],
+        "answer": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ"
+        ]
+    }
+{
+        "_id": "6445dd2187ccd7fd3c489293",
+        "type": "multiple",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "",
+        "options": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ",
+            "ZeroMQ"
+        ],
+        "answer": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ"
+        ]
+    }
+{
+        "_id": "6445dd2187ccd7fd3c489294",
+        "type": "multiple",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+            "",
+            "Kafka",
+            "ActiveMQ",
+            "ZeroMQ"
+        ],
+        "answer": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ"
+        ]
+    }
+{
+        "_id": "6445dd2187ccd7fd3c489295",
+        "type": "multiple",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+        ],
+        "answer": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ"
+        ]
+    }
+{
+        "_id": "6445dd2187ccd7fd3c489296",
+        "type": "multiple",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ",
+            "ZeroMQ"
+        ],
+        "answer": [
+
+        ]
+    }
+{
+        "_id": "6445dd2187ccd7fd3c489297",
+        "type": "multiple",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+            "RabbitMQ",
+	    "Kafka",
+            "ActiveMQ",
+            "ZeroMQ"
+        ],
+        "answer": [
+            "RabbitMQ"
+        ]
+    }
+{
+        "_id": "6445dd2187ccd7fd3c489298",
+        "type": "unique",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ",
+            "ZeroMQ"
+        ],
+        "answer": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ"
+        ]
+    }
+{
+        "_id": "6445dd2187ccd7fd3c489299",
+        "type": "truefalse",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ",
+            "ZeroMQ"
+        ],
+        "answer": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ"
+        ]
+    }
+{
+        "_id": "6445dd2187ccd7fd3c489210",
+        "type": "multiple",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+            "RabbitMQ",
+            "Kafka"
+        ],
+        "answer": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ"
+        ]
+    }
+{
+        "_id": "6445dd2187ccd7fd3c489211",
+        "type": "unique",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+            "RabbitMQ",
+            "Kafka"
+        ],
+        "answer": [
+            "RabbitMQ"
+        ]
+    }
+{
+        "_id": "6445dd2187ccd7fd3c489212",
+        "type": "multiple",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+            "RabbitMQ",
+	    "RabbitMQ",
+            "Kafka",
+            "ActiveMQ",
+	    "Prueba"
+        ],
+        "answer": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ"
+        ]
+    }
+{
+        "_id": "6445dd2187ccd7fd3c489213",
+        "type": "unique",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+            "RabbitMQ",
+	    "RabbitMQ",
+            "Kafka",
+            "ActiveMQ",
+	    "Prueba"
+        ],
+        "answer": [
+            "RabbitMQ"
+        ]
+    }
+{
+        "_id": "6445dd2187ccd7fd3c489214",
+        "type": "truefalse",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ"
+        ],
+        "answer": [
+            "RabbitMQ",
+            "Kafka"
+
+        ]
+    }
+{
+        "_id": "6445dd2187ccd7fd3c489215",
+        "type": "truefalse",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+            "RabbitMQ"
+        ],
+        "answer": [
+            "RabbitMQ"
+        ]
+    }
+{
+        "_id": "6445dd2187ccd7fd3c489216",
+        "type": "multiple",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ",
+            "ZeroMQ"
+        ],
+        "answer": [
+            "Prueba"
+        ]
+    }
+{
+        "_id": "6445dd2187ccd7fd3c489217",
+        "type": "multiple",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ",
+            "ZeroMQ"
+        ],
+        "answer": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ"
+        ]
+    }
+{
+        "_id": "6445dd2187ccd7fd3c489218",
+        "type": "unique",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ",
+            "ZeroMQ"
+        ],
+        "answer": [
+            "RabbitMQ"
+        ]
+    }
+{
+        "_id": "6445dd2187ccd7fd3c489219",
+        "type": "truefalse",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": [
+            "Verdadero"
+        ]
+    }
+{
+        "_id": "6445dd2187ccd7fd3c489220",
+        "type": "truefalse",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+            "Verdadero",
+            "Falso"
+        ],
+        "answer": [
+            "Verdadero"
+        ]
+    }
