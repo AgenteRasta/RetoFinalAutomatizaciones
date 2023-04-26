@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Ver la informacion de todas las preguntas" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-26T18:05:19" hostname="LAPTOP-7C2GORMF" time="0.729">
+  <properties/>
+  <testcase name="Ver informacion de todas las preguntas" classname="Ver la informacion de todas las preguntas" time="0.729"/>
+  <system-out><![CDATA[Request method:	GET
+Request URI:	https://reto-q-backend-production.up.railway.app/question/get-all
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 23977
+etag: W/"5da9-mCRZcCNeXV31Mjp3stBu9jWKiCU"
+date: Wed, 26 Apr 2023 18:05:19 GMT
+server: railway
+
+[
+    {
+        "_id": "6445dd2187ccd7fd3c489280",
+        "type": "multiple",
+        "topic": "Arquitectura Empresarial",
+        "level": "2",
+        "sentence": "¿Qué patrón arquitectónico se enfoca en la separación de responsabilidades y la escalabilidad de los componentes de un sistema?",
+        "options": [
+            "Microservicios",
+            "Monolito",
+            "Serverless",
+            "API Gateway"
+        ],
+        "answer": [
+            "Microservicios",
+            "Serverless"
+        ]
+    },
+    {
+        "_id": "6445dd2187ccd7fd3c489281",
+        "type": "multiple",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ",
+            "ZeroMQ"
+        ],
+        "answer": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ"
+        ]
+    },
+    {
+        "_id": "6445dd2187ccd7fd3c489283",
+        "type": "unique",
+        "topic": "Arquitectura Empresarial",
+        "level": "1",
+        "sentence": "¿Qué tecnología se utiliza para describir APIs RESTful?",
+        "options": [
+            "Swagger",
+            "GraphQL",
+            "SOAP",
+            "XML-RPC"
+        ],
+        "answer": [
+            "Swagger"
+        ]
+    },
+    {
+        "_id": "6445dd2187ccd7fd3c489282",
+        "type": "multiple",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para crear y gestionar infraestructuras como código?",
+        "options": [
+            "Terraform",
+            "Ansible",
+            "Chef",
+            "Puppet"
+        ],
+        "answer": [
+            "Terraform",
+            "Ansible"
+        ]
+    },
+    {
+        "_id": "6445dd2187ccd7fd3c48927f",
+        "type": "multiple",
+        "topic": "Arquitectura Empresarial",
+        "level": "2",
+        "sentence": "¿Cuál de las siguientes tecnologías se utiliza para orquestar y gestionar contenedores de aplicaciones en un entorno multicloud?",
+        "options": [
+            "Kubernetes",
+            "OpenStack",
+            "Cloud Foundry",
+            "Docker Swarm"
+        ],
+        "answer": [
+            "Kubernetes",
+            "OpenStack",
+            "Cloud Foundry"
+        ]
+    },
+    {
+        "_id": "6445dd2187ccd7fd3c48928e",
+        "type": "truefalse",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "La Arquitectura Basada en Eventos se enfoca en la creación de servicios pequeños, independientes y altamente cohesivos.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Verdadero"
+        ]
+    },
+    {
+        "_id": "6445dd3187ccd7fd3c4892b0",
+        "type": "truefalse",
+        "topic": "DDD",
+        "level": "2",
+        "sentence": "Una especificación en el contexto del DDD es un conjunto de reglas que define las propiedades que deben cumplir los objetos de dominio.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Verdadero"
+        ]
+    },
+    {
+        "_id": "6445dd2187ccd7fd3c48928b",
+        "type": "truefalse",
+        "topic": "Arquitectura Empresarial",
+        "level": "2",
+        "sentence": "El Diseño Atómico se enfoca en la creación de componentes atómicos para una interfaz de usuario.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Verdadero"
+        ]
+    },
+    {
+        "_id": "6445dd2187ccd7fd3c489286",
+        "type": "unique",
+        "topic": "Arquitectura Empresarial",
+        "level": "2",
+        "sentence": "¿Qué tecnología se utiliza para crear y gestionar contenedores de aplicaciones?",
+        "options": [
+            "Docker",
+            "Kubernetes",
+            "Mesos",
+            "ECS"
+        ],
+        "answer": [
+            "Docker"
+        ]
+    },
+    {
+        "_id": "6445dd2887ccd7fd3c489299",
+        "type": "unique",
+        "topic": "Java",
+        "level": "3",
+        "sentence": "¿Qué es Reactor en el contexto de la programación reactiva en Java?",
+        "options": [
+            "Un framework para programación funcional",
+            "Un framework para programación orientada a objetos",
+            "Un framework para programación procedural",
+            "Un framework para programación estructurada"
+        ],
+        "answer": [
+            "Un framework para programación funcional"
+        ]
+    },
+    {
+        "_id": "6445dd2887ccd7fd3c48929c",
+        "type": "truefalse",
+        "topic": "Java",
+        "level": "1",
+        "sentence": "La herencia es un mecanismo para reutilizar código en programación orientada a objetos.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Verdadero"
+        ]
+    },
+    {
+        "_id": "6445dd2187ccd7fd3c48928c",
+        "type": "truefalse",
+        "topic": "Arquitectura Empresarial",
+        "level": "2",
+        "sentence": "Docker es una tecnología utilizada para orquestar y gestionar contenedores de aplicaciones en un entorno multicloud.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Falso"
+        ]
+    },
+    {
+        "_id": "6445dd3187ccd7fd3c4892a2",
+        "type": "multiple",
+        "topic": "DDD",
+        "level": "1",
+        "sentence": "¿Qué es un agregado en el contexto del DDD?",
+        "options": [
+            "Un conjunto de entidades y objetos de valor relacionados",
+            "Una tabla en la base de datos",
+            "Una clase en el código fuente",
+            "Un archivo de configuración del sistema"
+        ],
+        "answer": [
+            "Un conjunto de entidades y objetos de valor relacionados",
+            "Una clase en el código fuente"
+        ]
+    },
+    {
+        "_id": "6445dd2887ccd7fd3c489293",
+        "type": "multiple",
+        "topic": "Java",
+        "level": "3",
+        "sentence": "¿Qué es la programación funcional?",
+        "options": [
+            "Un paradigma de programación que se basa en el uso de funciones",
+            "Una técnica para mejorar el rendimiento de los programas",
+            "Un modelo de programación que se enfoca en la interacción de objetos",
+            "Un proceso de optimización del código fuente"
+        ],
+        "answer": [
+            "Un paradigma de programación que se basa en el uso de funciones",
+            "Un modelo de programación que se enfoca en la interacción de objetos"
+        ]
+    },
+    {
+        "_id": "6445dd3a87ccd7fd3c4892b9",
+        "type": "unique",
+        "topic": "Javascript",
+        "level": "1",
+        "sentence": "¿Cuál es la forma correcta de declarar una variable en Javascript?",
+        "options": [
+            "var name = value",
+            "int name = value",
+            "string name = value",
+            "let name = value"
+        ],
+        "answer": [
+            "let name = value"
+        ]
+    },
+    {
+        "_id": "6445dd3a87ccd7fd3c4892b6",
+        "type": "multiple",
+        "topic": "Javascript",
+        "level": "2",
+        "sentence": "¿Qué método se utiliza en Javascript para seleccionar un elemento del DOM?",
+        "options": [
+            "document.querySelector()",
+            "document.getElementById()",
+            "document.getElementByClass()",
+            "Todas las anteriores"
+        ],
+        "answer": [
+            "document.querySelector()",
+            "document.getElementById()"
+        ]
+    },
+    {
+        "_id": "6445dd3a87ccd7fd3c4892ba",
+        "type": "unique",
+        "topic": "Javascript",
+        "level": "1",
+        "sentence": "¿Cuál es el resultado de la siguiente expresión en Javascript: 5 + '5'?",
+        "options": [
+            "10",
+            "55",
+            "NaN",
+            "Error"
+        ],
+        "answer": [
+            "55"
+        ]
+    },
+    {
+        "_id": "6445dd3a87ccd7fd3c4892c4",
+        "type": "truefalse",
+        "topic": "Javascript",
+        "level": "3",
+        "sentence": "Las funciones puras son un concepto importante en la programación orientada a objetos en Javascript",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Falso"
+        ]
+    },
+    {
+        "_id": "6445dd3a87ccd7fd3c4892bd",
+        "type": "unique",
+        "topic": "Javascript",
+        "level": "3",
+        "sentence": "¿Cuál de los siguientes es un framework de Javascript para el desarrollo de aplicaciones web de una sola página (SPA)?",
+        "options": [
+            "React",
+            "Vue",
+            "Angular",
+            "Ember"
+        ],
+        "answer": [
+            "Angular"
+        ]
+    },
+    {
+        "_id": "6445dd3a87ccd7fd3c4892c0",
+        "type": "truefalse",
+        "topic": "Javascript",
+        "level": "1",
+        "sentence": "El método splice() se utiliza en Javascript para agregar elementos al final de un array",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Falso"
+        ]
+    },
+    {
+        "_id": "6445dd3a87ccd7fd3c4892c1",
+        "type": "truefalse",
+        "topic": "Javascript",
+        "level": "2",
+        "sentence": "El concepto de herencia es importante en la programación funcional en Javascript",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Falso"
+        ]
+    },
+    {
+        "_id": "6445dd2187ccd7fd3c48928d",
+        "type": "truefalse",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "RabbitMQ es una tecnología utilizada para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Verdadero"
+        ]
+    },
+    {
+        "_id": "6445dd2187ccd7fd3c489285",
+        "type": "unique",
+        "topic": "Arquitectura Empresarial",
+        "level": "2",
+        "sentence": "¿Qué método de diseño se enfoca en la creación de componentes atómicos para una interfaz de usuario?",
+        "options": [
+            "Diseño Atómico",
+            "Diseño Responsivo",
+            "Diseño Material",
+            "Diseño Plano"
+        ],
+        "answer": [
+            "Diseño Atómico"
+        ]
+    },
+    {
+        "_id": "6445dd3187ccd7fd3c4892a1",
+        "type": "multiple",
+        "topic": "DDD",
+        "level": "1",
+        "sentence": "¿Qué es el dominio en el contexto del DDD?",
+        "options": [
+            "Un conjunto de problemas que el software debe resolver",
+            "La capa de infraestructura del sistema",
+            "La interfaz de usuario del sistema",
+            "El lenguaje de programación utilizado"
+        ],
+        "answer": [
+            "Un conjunto de problemas que el software debe resolver",
+            "La capa de infraestructura del sistema"
+        ]
+    },
+    {
+        "_id": "6445dd2187ccd7fd3c489287",
+        "type": "unique",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Qué tecnología se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+        "options": [
+            "RabbitMQ",
+            "Kafka",
+            "ActiveMQ",
+            "NSQ"
+        ],
+        "answer": [
+            "RabbitMQ"
+        ]
+    },
+    {
+        "_id": "6445dd2187ccd7fd3c48928a",
+        "type": "truefalse",
+        "topic": "Arquitectura Empresarial",
+        "level": "1",
+        "sentence": "La Arquitectura Limpia se enfoca en la separación de responsabilidades y la escalabilidad del código.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Verdadero"
+        ]
+    },
+    {
+        "_id": "6445dd2887ccd7fd3c48929a",
+        "type": "unique",
+        "topic": "Java",
+        "level": "3",
+        "sentence": "¿Cuál es una característica de Spring WebFlux en el contexto de la programación reactiva en Java?",
+        "options": [
+            "Es compatible con versiones antiguas de Java",
+            "Soporta programación síncrona y asíncrona",
+            "Es un framework exclusivo para aplicaciones web",
+            "Requiere una configuración compleja para funcionar"
+        ],
+        "answer": [
+            "Soporta programación síncrona y asíncrona"
+        ]
+    },
+    {
+        "_id": "6445dd2887ccd7fd3c48929d",
+        "type": "truefalse",
+        "topic": "Java",
+        "level": "2",
+        "sentence": "Lambda es una característica de la programación orientada a objetos en Java.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Falso"
+        ]
+    },
+    {
+        "_id": "6445dd2887ccd7fd3c4892a0",
+        "type": "truefalse",
+        "topic": "Java",
+        "level": "3",
+        "sentence": "La inyección de dependencias es una técnica típica de la programación estructurada en Java.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Falso"
+        ]
+    },
+    {
+        "_id": "6445dd3187ccd7fd3c4892a8",
+        "type": "unique",
+        "topic": "DDD",
+        "level": "1",
+        "sentence": "¿Cuál es el principal beneficio de utilizar el lenguaje ubicuo en el contexto del DDD?",
+        "options": [
+            "Mejorar la escalabilidad del sistema",
+            "Facilitar la comunicación entre los miembros del equipo",
+            "Reducir la complejidad del sistema",
+            "Mejorar la seguridad del sistema"
+        ],
+        "answer": [
+            "Facilitar la comunicación entre los miembros del equipo"
+        ]
+    },
+    {
+        "_id": "6445dd3a87ccd7fd3c4892b3",
+        "type": "multiple",
+        "topic": "Javascript",
+        "level": "1",
+        "sentence": "¿Qué método se utiliza en Javascript para agregar un elemento al final de un array?",
+        "options": [
+            "push()",
+            "pop()",
+            "shift()",
+            "unshift()"
+        ],
+        "answer": [
+            "push()"
+        ]
+    },
+    {
+        "_id": "6445dd2887ccd7fd3c489290",
+        "type": "multiple",
+        "topic": "Java",
+        "level": "1",
+        "sentence": "¿Qué es la herencia en programación orientada a objetos?",
+        "options": [
+            "Un mecanismo para reutilizar código",
+            "Una técnica para optimizar el rendimiento",
+            "Un patrón de diseño para la arquitectura de software",
+            "Un concepto para la gestión de memoria"
+        ],
+        "answer": [
+            "Un mecanismo para reutilizar código",
+            "Un patrón de diseño para la arquitectura de software"
+        ]
+    },
+    {
+        "_id": "6445dd2887ccd7fd3c48929f",
+        "type": "truefalse",
+        "topic": "Java",
+        "level": "3",
+        "sentence": "La programación reactiva se enfoca en la gestión de eventos y la propagación de cambios en tiempo real.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Verdadero"
+        ]
+    },
+    {
+        "_id": "6445dd3a87ccd7fd3c4892b7",
+        "type": "multiple",
+        "topic": "Javascript",
+        "level": "3",
+        "sentence": "¿Cuál de los siguientes es un framework de Javascript para el desarrollo de aplicaciones web de una sola página (SPA)?",
+        "options": [
+            "React",
+            "Vue",
+            "Angular",
+            "Ember"
+        ],
+        "answer": [
+            "Angular",
+            "React"
+        ]
+    },
+    {
+        "_id": "6445dd3187ccd7fd3c4892a9",
+        "type": "unique",
+        "topic": "DDD",
+        "level": "2",
+        "sentence": "¿Qué es un repositorio en el contexto del DDD?",
+        "options": [
+            "Un componente de infraestructura que se encarga de la persistencia de los objetos de dominio",
+            "Un objeto que encapsula la lógica de negocio compleja",
+            "Un conjunto de servicios web que se comunican con otros sistemas",
+            "Un elemento de la capa de presentación del sistema"
+        ],
+        "answer": [
+            "Un componente de infraestructura que se encarga de la persistencia de los objetos de dominio"
+        ]
+    },
+    {
+        "_id": "6445dd3a87ccd7fd3c4892b8",
+        "type": "multiple",
+        "topic": "Javascript",
+        "level": "3",
+        "sentence": "¿Cuál de las siguientes opciones es una característica de la programación funcional en Javascript?",
+        "options": [
+            "Inmutabilidad",
+            "Funciones puras",
+            "Composición de funciones",
+            "Todas las anteriores"
+        ],
+        "answer": [
+            "Todas las anteriores"
+        ]
+    },
+    {
+        "_id": "6445dd3187ccd7fd3c4892aa",
+        "type": "unique",
+        "topic": "DDD",
+        "level": "2",
+        "sentence": "¿Qué es una especificación en el contexto del DDD?",
+        "options": [
+            "Un objeto que encapsula la lógica de negocio compleja",
+            "Un objeto que representa un registro en la base de datos",
+            "Un conjunto de reglas que define las propiedades que deben cumplir los objetos de dominio",
+            "Un objeto que representa un recurso del sistema"
+        ],
+        "answer": [
+            "Un conjunto de reglas que define las propiedades que deben cumplir los objetos de dominio"
+        ]
+    },
+    {
+        "_id": "6445dd3187ccd7fd3c4892b1",
+        "type": "truefalse",
+        "topic": "DDD",
+        "level": "3",
+        "sentence": "Un servicio de aplicación en el contexto del DDD es un componente de infraestructura que proporciona funcionalidad genérica.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Falso"
+        ]
+    },
+    {
+        "_id": "6445dd3187ccd7fd3c4892b2",
+        "type": "truefalse",
+        "topic": "DDD",
+        "level": "3",
+        "sentence": "Un objeto de transferencia de datos (DTO) en el contexto del DDD es un objeto que representa un recurso del sistema.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Verdadero"
+        ]
+    },
+    {
+        "_id": "6445dd2887ccd7fd3c489296",
+        "type": "unique",
+        "topic": "Java",
+        "level": "1",
+        "sentence": "¿Cuál es el resultado de la siguiente expresión en Java: 5 + 3 * 2?",
+        "options": [
+            "11",
+            "13",
+            "16",
+            "19"
+        ],
+        "answer": [
+            "11"
+        ]
+    },
+    {
+        "_id": "6445dd2887ccd7fd3c489291",
+        "type": "multiple",
+        "topic": "Java",
+        "level": "2",
+        "sentence": "¿Cuál es el resultado de la operación 7 % 3 en Java?",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "answer": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "_id": "6445dd3187ccd7fd3c4892a4",
+        "type": "multiple",
+        "topic": "DDD",
+        "level": "2",
+        "sentence": "¿Qué es una fábrica de entidades en el contexto del DDD?",
+        "options": [
+            "Un objeto que crea instancias de entidades",
+            "Un componente de infraestructura que maneja la persistencia de las entidades",
+            "Una clase que encapsula la lógica de negocio asociada a las entidades",
+            "Una herramienta de generación de código"
+        ],
+        "answer": [
+            "Un objeto que crea instancias de entidades",
+            "Una clase que encapsula la lógica de negocio asociada a las entidades"
+        ]
+    },
+    {
+        "_id": "6445dd2887ccd7fd3c489292",
+        "type": "multiple",
+        "topic": "Java",
+        "level": "2",
+        "sentence": "¿Qué es una interfaz en programación orientada a objetos?",
+        "options": [
+            "Una implementación concreta de una clase abstracta",
+            "Una clase que no se puede instanciar directamente",
+            "Un tipo de dato para almacenar información",
+            "Un método que no tiene implementación"
+        ],
+        "answer": [
+            "Una clase que no se puede instanciar directamente",
+            "Un método que no tiene implementación"
+        ]
+    },
+    {
+        "_id": "6445dd3187ccd7fd3c4892a5",
+        "type": "multiple",
+        "topic": "DDD",
+        "level": "3",
+        "sentence": "¿Qué es una entidad en el contexto del DDD?",
+        "options": [
+            "Un objeto que encapsula la lógica de negocio compleja",
+            "Un objeto que representa un registro en la base de datos",
+            "Un objeto que representa un elemento de la interfaz de usuario",
+            "Un objeto que representa un recurso del sistema"
+        ],
+        "answer": [
+            "Un objeto que encapsula la lógica de negocio compleja",
+            "Un objeto que representa un registro en la base de datos"
+        ]
+    },
+    {
+        "_id": "6445dd2887ccd7fd3c48929b",
+        "type": "truefalse",
+        "topic": "Java",
+        "level": "1",
+        "sentence": "Java es un lenguaje de programación interpretado.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Falso"
+        ]
+    },
+    {
+        "_id": "6445dd3a87ccd7fd3c4892be",
+        "type": "unique",
+        "topic": "Javascript",
+        "level": "3",
+        "sentence": "¿Qué método se utiliza en Javascript para crear un nuevo array a partir de otro array?",
+        "options": [
+            "map()",
+            "filter()",
+            "reduce()",
+            "slice()"
+        ],
+        "answer": [
+            "map()"
+        ]
+    },
+    {
+        "_id": "6445dd3187ccd7fd3c4892ae",
+        "type": "truefalse",
+        "topic": "DDD",
+        "level": "1",
+        "sentence": "El lenguaje ubicuo es un concepto importante en el contexto del DDD porque ayuda a reducir la complejidad del sistema.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Verdadero"
+        ]
+    },
+    {
+        "_id": "6445dd2187ccd7fd3c489284",
+        "type": "unique",
+        "topic": "Arquitectura Empresarial",
+        "level": "1",
+        "sentence": "¿Qué patrón arquitectónico se enfoca en la separación de responsabilidades y la escalabilidad del código?",
+        "options": [
+            "Arquitectura limpia",
+            "Patrón MVC",
+            "Patrón Singleton",
+            "Patrón Factory"
+        ],
+        "answer": [
+            "Arquitectura limpia"
+        ]
+    },
+    {
+        "_id": "6445dd2887ccd7fd3c489297",
+        "type": "unique",
+        "topic": "Java",
+        "level": "2",
+        "sentence": "¿Cuál es la principal diferencia entre una clase abstracta y una interfaz en Java?",
+        "options": [
+            "Una interfaz puede tener atributos y métodos con implementación",
+            "Una clase abstracta puede ser instanciada directamente",
+            "Una clase abstracta puede implementar múltiples interfaces",
+            "Una interfaz puede tener métodos con implementación"
+        ],
+        "answer": [
+            "Una clase abstracta puede ser instanciada directamente"
+        ]
+    },
+    {
+        "_id": "6445dd2187ccd7fd3c489289",
+        "type": "truefalse",
+        "topic": "Arquitectura Empresarial",
+        "level": "1",
+        "sentence": "Swagger es una tecnología utilizada para describir APIs RESTful.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Verdadero"
+        ]
+    },
+    {
+        "_id": "6445dd2887ccd7fd3c48928f",
+        "type": "multiple",
+        "topic": "Java",
+        "level": "1",
+        "sentence": "¿Cuál de las siguientes opciones es un tipo primitivo de Java?",
+        "options": [
+            "String",
+            "Integer",
+            "Float",
+            "Boolean"
+        ],
+        "answer": [
+            "Integer",
+            "Float"
+        ]
+    },
+    {
+        "_id": "6445dd2187ccd7fd3c489288",
+        "type": "unique",
+        "topic": "Arquitectura Empresarial",
+        "level": "3",
+        "sentence": "¿Qué práctica se enfoca en la creación de servicios pequeños, independientes y altamente cohesivos?",
+        "options": [
+            "Arquitectura Monolítica",
+            "Microservicios",
+            "Arquitectura Orientada a Servicios",
+            "Arquitectura Basada en Eventos"
+        ],
+        "answer": [
+            "Microservicios"
+        ]
+    },
+    {
+        "_id": "6445dd3187ccd7fd3c4892af",
+        "type": "truefalse",
+        "topic": "DDD",
+        "level": "2",
+        "sentence": "Un repositorio en el contexto del DDD es un objeto que encapsula la lógica de negocio compleja.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Falso"
+        ]
+    },
+    {
+        "_id": "6445dd3a87ccd7fd3c4892c2",
+        "type": "truefalse",
+        "topic": "Javascript",
+        "level": "2",
+        "sentence": "El método querySelector() se utiliza en Javascript para seleccionar elementos del DOM",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Verdadero"
+        ]
+    },
+    {
+        "_id": "6445dd3a87ccd7fd3c4892c3",
+        "type": "truefalse",
+        "topic": "Javascript",
+        "level": "3",
+        "sentence": "Angular es un framework de Javascript para el desarrollo de aplicaciones web de una sola página (SPA)",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Verdadero"
+        ]
+    },
+    {
+        "_id": "6445dd2887ccd7fd3c489298",
+        "type": "unique",
+        "topic": "Java",
+        "level": "2",
+        "sentence": "¿Cuál de las siguientes afirmaciones es verdadera respecto a los Streams en Java?",
+        "options": [
+            "Los Streams son una característica de la programación orientada a objetos",
+            "Los Streams son una característica de la programación funcional",
+            "Los Streams son una característica de la programación procedural",
+            "Los Streams son una característica de la programación estructurada"
+        ],
+        "answer": [
+            "Los Streams son una característica de la programación funcional"
+        ]
+    },
+    {
+        "_id": "6445dd2887ccd7fd3c48929e",
+        "type": "truefalse",
+        "topic": "Java",
+        "level": "2",
+        "sentence": "Java 8 introdujo el concepto de Optional para manejar valores nulos de manera segura.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Verdadero"
+        ]
+    },
+    {
+        "_id": "6445dd3187ccd7fd3c4892a7",
+        "type": "unique",
+        "topic": "DDD",
+        "level": "1",
+        "sentence": "¿Cuál es el objetivo principal del DDD a nivel estratégico?",
+        "options": [
+            "Mejorar el rendimiento del sistema",
+            "Facilitar la comprensión del dominio del negocio",
+            "Reducir los costos de desarrollo",
+            "Mejorar la usabilidad del sistema"
+        ],
+        "answer": [
+            "Facilitar la comprensión del dominio del negocio"
+        ]
+    },
+    {
+        "_id": "6445dd3a87ccd7fd3c4892bf",
+        "type": "truefalse",
+        "topic": "Javascript",
+        "level": "1",
+        "sentence": "Javascript es un lenguaje de programación interpretado",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Verdadero"
+        ]
+    },
+    {
+        "_id": "6445dd2187ccd7fd3c48927d",
+        "type": "multiple",
+        "topic": "Arquitectura Empresarial",
+        "level": "1",
+        "sentence": "¿Qué tecnología se utiliza para crear y gestionar contenedores de aplicaciones?",
+        "options": [
+            "Docker",
+            "Kubernetes",
+            "Mesos",
+            "ECS"
+        ],
+        "answer": [
+            "Docker",
+            "Kubernetes"
+        ]
+    },
+    {
+        "_id": "6445dd3a87ccd7fd3c4892b4",
+        "type": "multiple",
+        "topic": "Javascript",
+        "level": "1",
+        "sentence": "¿Cuál es el resultado de la siguiente operación en Javascript: 10 / 0?",
+        "options": [
+            "Infinity",
+            "NaN",
+            "Error",
+            "0"
+        ],
+        "answer": [
+            "Infinity"
+        ]
+    },
+    {
+        "_id": "6445dd2887ccd7fd3c489294",
+        "type": "multiple",
+        "topic": "Java",
+        "level": "3",
+        "sentence": "¿Qué es Spring Boot?",
+        "options": [
+            "Un framework para desarrollo de aplicaciones web",
+            "Un lenguaje de programación para aplicaciones de escritorio",
+            "Un entorno de desarrollo integrado (IDE)",
+            "Un sistema de gestión de bases de datos"
+        ],
+        "answer": [
+            "Un framework para desarrollo de aplicaciones web",
+            "Un sistema de gestión de bases de datos"
+        ]
+    },
+    {
+        "_id": "6445dd3187ccd7fd3c4892ac",
+        "type": "unique",
+        "topic": "DDD",
+        "level": "3",
+        "sentence": "¿Qué es un objeto de transferencia de datos (DTO) en el contexto del DDD?",
+        "options": [
+            "Un objeto que representa un registro en la base de datos",
+            "Un objeto que encapsula la lógica de negocio compleja",
+            "Un objeto que representa un elemento de la interfaz de usuario",
+            "Un objeto que representa un recurso del sistema"
+        ],
+        "answer": [
+            "Un objeto que representa un recurso del sistema"
+        ]
+    },
+    {
+        "_id": "6445dd3187ccd7fd3c4892ad",
+        "type": "truefalse",
+        "topic": "DDD",
+        "level": "1",
+        "sentence": "El objetivo principal del DDD a nivel estratégico es mejorar el rendimiento del sistema.",
+        "options": [
+            "Falso",
+            "Verdadero"
+        ],
+        "answer": [
+            "Falso"
+        ]
+    },
+    {
+        "_id": "6445dd3a87ccd7fd3c4892b5",
+        "type": "multiple",
+        "topic": "Javascript",
+        "level": "2",
+        "sentence": "¿Cuál de las siguientes opciones es una característica de la programación orientada a objetos en Javascript?",
+        "options": [
+            "Encapsulamiento",
+            "Herencia",
+            "Polimorfismo",
+            "Todas las anteriores"
+        ],
+        "answer": [
+            "Todas las anteriores"
+        ]
+    },
+    {
+        "_id": "6445dd3a87ccd7fd3c4892bb",
+        "type": "unique",
+        "topic": "Javascript",
+        "level": "2",
+        "sentence": "¿Cuál de las siguientes opciones es un concepto importante de la programación orientada a objetos en Javascript?",
+        "options": [
+            "Herencia",
+            "Polimorfismo",
+            "Encapsulamiento",
+            "Todas las anteriores"
+        ],
+        "answer": [
+            "Herencia"
+        ]
+    },
+    {
+        "_id": "6445dd3a87ccd7fd3c4892bc",
+        "type": "unique",
+        "topic": "Javascript",
+        "level": "2",
+        "sentence": "¿Qué método se utiliza en Javascript para agregar un evento a un elemento del DOM?",
+        "options": [
+            "addEventListener()",
+            "getElementById()",
+            "querySelector()",
+            "appendChild()"
+        ],
+        "answer": [
+            "addEventListener()"
+        ]
+    },
+    {
+        "_id": "6445dd3187ccd7fd3c4892a6",
+        "type": "multiple",
+        "topic": "DDD",
+        "level": "3",
+        "sentence": "¿Qué es un objeto de valor en el contexto del DDD?",
+        "options": [
+            "Un objeto que representa un registro en la base de datos",
+            "Un objeto que encapsula la lógica de negocio compleja",
+            "Un objeto que representa un elemento de la interfaz de usuario",
+            "Un objeto que representa un recurso del sistema"
+        ],
+        "answer": [
+            "Un objeto que encapsula la lógica de negocio compleja",
+            "Un objeto que representa un recurso del sistema"
+        ]
+    },
+    {
+        "_id": "6445dd2187ccd7fd3c48927e",
+        "type": "multiple",
+        "topic": "Arquitectura Empresarial",
+        "level": "1",
+        "sentence": "¿Qué tecnología se utiliza para describir APIs de manera clara y sencilla?",
+        "options": [
+            "Swagger",
+            "OpenAPI",
+            "GraphQL",
+            "WS-*"
+        ],
+        "answer": [
+            "Swagger",
+            "OpenAPI"
+        ]
+    },
+    {
+        "_id": "6445dd2887ccd7fd3c489295",
+        "type": "unique",
+        "topic": "Java",
+        "level": "1",
+        "sentence": "¿Cuál de las siguientes afirmaciones es verdadera respecto a Java?",
+        "options": [
+            "Java es un lenguaje de programación interpretado",
+            "Java es un lenguaje de programación compilado",
+            "Java es un lenguaje de programación de bajonivel",
+            "Java es un lenguaje de programación orientado a objetos"
+        ],
+        "answer": [
+            "Java es un lenguaje de programación orientado a objetos"
+        ]
+    },
+    {
+        "_id": "6445dd3187ccd7fd3c4892a3",
+        "type": "multiple",
+        "topic": "DDD",
+        "level": "2",
+        "sentence": "¿Qué es un servicio de dominio en el contexto del DDD?",
+        "options": [
+            "Un componente de infraestructura que proporciona funcionalidad genérica",
+            "Un objeto que encapsula la lógica de negocio compleja",
+            "Un conjunto de servicios web que se comunican con otros sistemas",
+            "Un elemento de la capa de presentación del sistema"
+        ],
+        "answer": [
+            "Un objeto que encapsula la lógica de negocio compleja",
+            "Un componente de infraestructura que proporciona funcionalidad genérica"
+        ]
+    },
+    {
+        "_id": "6445dd3187ccd7fd3c4892ab",
+        "type": "unique",
+        "topic": "DDD",
+        "level": "3",
+        "sentence": "¿Qué es un servicio de aplicación en el contexto del DDD?",
+        "options": [
+            "Un componente de infraestructura que proporciona funcionalidad genérica",
+            "Un objeto que encapsula la lógica de negocio compleja",
+            "Un conjunto de servicios web que se comunican con otros sistemas",
+            "Un objeto que representa un recurso del sistema"
+        ],
+        "answer": [
+            "Un objeto que encapsula la lógica de negocio compleja"
+        ]
+    }
+]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -10,7 +10,7 @@
 
 12 Scenarios (?[31m4 failed?[0m, ?[32m8 passed?[0m)
 36 Steps (?[31m4 failed?[0m, ?[32m32 passed?[0m)
-0m7,634s
+0m7,345s
 
 
 java.lang.AssertionError: 1 expectation failed.

@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Crear pregunta" tests="21" skipped="0" failures="11" errors="0" timestamp="2023-04-26T18:04:22" hostname="LAPTOP-7C2GORMF" time="21.848">
+  <properties/>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="9.832"/>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="0.691"/>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="0.7"/>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="0.828"/>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="0.559"/>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="0.571"/>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="0.521"/>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="0.746">
+    <failure message="java.lang.AssertionError: &#10;Expected: a value greater than &lt;1&gt;&#10;     but: &lt;1&gt; was equal to &lt;1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: a value greater than &lt;1&gt;
+     but: &lt;1&gt; was equal to &lt;1&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.CrearPreguntaStepDefinition.laInformacionDeLaPreguntaCreada(CrearPreguntaStepDefinition.java:93)
+	at ✽.la informacion de la pregunta creada(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/crearpregunta.feature:11)
+</failure>
+  </testcase>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="0.615">
+    <failure message="java.lang.AssertionError: &#10;Expected: &lt;1&gt;&#10;     but: was &lt;3&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: &lt;1&gt;
+     but: was &lt;3&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.CrearPreguntaStepDefinition.laInformacionDeLaPreguntaCreada(CrearPreguntaStepDefinition.java:125)
+	at ✽.la informacion de la pregunta creada(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/crearpregunta.feature:11)
+</failure>
+  </testcase>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="0.61">
+    <failure message="java.lang.AssertionError: &#10;Expected: &lt;2&gt;&#10;     but: was &lt;4&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: &lt;2&gt;
+     but: was &lt;4&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.CrearPreguntaStepDefinition.laInformacionDeLaPreguntaCreada(CrearPreguntaStepDefinition.java:110)
+	at ✽.la informacion de la pregunta creada(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/crearpregunta.feature:11)
+</failure>
+  </testcase>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="0.561">
+    <failure message="java.lang.AssertionError: &#10;Expected: &lt;4&gt;&#10;     but: was &lt;2&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: &lt;4&gt;
+     but: was &lt;2&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.CrearPreguntaStepDefinition.laInformacionDeLaPreguntaCreada(CrearPreguntaStepDefinition.java:93)
+	at ✽.la informacion de la pregunta creada(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/crearpregunta.feature:11)
+</failure>
+  </testcase>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="0.588">
+    <failure message="java.lang.AssertionError: &#10;Expected: &lt;4&gt;&#10;     but: was &lt;2&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: &lt;4&gt;
+     but: was &lt;2&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.CrearPreguntaStepDefinition.laInformacionDeLaPreguntaCreada(CrearPreguntaStepDefinition.java:125)
+	at ✽.la informacion de la pregunta creada(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/crearpregunta.feature:11)
+</failure>
+  </testcase>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="0.565">
+    <failure message="java.lang.AssertionError: &#10;Expected: &lt;4&gt;&#10;     but: was &lt;5&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: &lt;4&gt;
+     but: was &lt;5&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.CrearPreguntaStepDefinition.laInformacionDeLaPreguntaCreada(CrearPreguntaStepDefinition.java:93)
+	at ✽.la informacion de la pregunta creada(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/crearpregunta.feature:11)
+</failure>
+  </testcase>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="0.553">
+    <failure message="java.lang.AssertionError: &#10;Expected: &lt;4&gt;&#10;     but: was &lt;5&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: &lt;4&gt;
+     but: was &lt;5&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.CrearPreguntaStepDefinition.laInformacionDeLaPreguntaCreada(CrearPreguntaStepDefinition.java:125)
+	at ✽.la informacion de la pregunta creada(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/crearpregunta.feature:11)
+</failure>
+  </testcase>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="0.536">
+    <failure message="java.lang.AssertionError: &#10;Expected: &lt;2&gt;&#10;     but: was &lt;3&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: &lt;2&gt;
+     but: was &lt;3&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.CrearPreguntaStepDefinition.laInformacionDeLaPreguntaCreada(CrearPreguntaStepDefinition.java:110)
+	at ✽.la informacion de la pregunta creada(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/crearpregunta.feature:11)
+</failure>
+  </testcase>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="0.582">
+    <failure message="java.lang.AssertionError: &#10;Expected: &lt;2&gt;&#10;     but: was &lt;1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: &lt;2&gt;
+     but: was &lt;1&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.CrearPreguntaStepDefinition.laInformacionDeLaPreguntaCreada(CrearPreguntaStepDefinition.java:110)
+	at ✽.la informacion de la pregunta creada(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/crearpregunta.feature:11)
+</failure>
+  </testcase>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="0.572">
+    <failure message="java.lang.AssertionError: &#10;Expected: a value greater than &lt;1&gt;&#10;     but: &lt;1&gt; was equal to &lt;1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: a value greater than &lt;1&gt;
+     but: &lt;1&gt; was equal to &lt;1&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.CrearPreguntaStepDefinition.laInformacionDeLaPreguntaCreada(CrearPreguntaStepDefinition.java:93)
+	at ✽.la informacion de la pregunta creada(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/crearpregunta.feature:11)
+</failure>
+  </testcase>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="0.55"/>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="0.524"/>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="0.563"/>
+  <testcase name="Crear una pregunta" classname="Crear pregunta" time="0.576">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;201&gt;.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.CrearPreguntaStepDefinition.reciboDeCodigoDeRespuesta(CrearPreguntaStepDefinition.java:74)
+	at ✽.recibo 400 de codigo de respuesta(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/crearpregunta.feature:10)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "Â¿QuÃ© patrÃ³n arquitectÃ³nico se enfoca en la separaciÃ³n de responsabilidades y la escalabilidad de los componentes de un sistema?",
+    "answer": [
+        "Microservicios",
+        "Serverless"
+    ],
+    "level": "2",
+    "options": [
+        "Microservicios",
+        "Monolito",
+        "Serverless",
+        "API Gateway"
+    ],
+    "topic": "Arquitectura Empresarial",
+    "_id": "6445dd2187ccd7fd3c489290",
+    "type": ""
+}
+HTTP/1.1 400 Bad Request
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 151
+etag: W/"97-vj314vH2z7vv0et/mo42wf2NnNY"
+date: Wed, 26 Apr 2023 18:04:31 GMT
+server: railway
+
+{
+    "statusCode": 400,
+    "message": [
+        "type must be one of the following values: multiple, unique, truefalse",
+        "type should not be empty"
+    ],
+    "error": "Bad Request"
+}
+Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "answer": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ"
+    ],
+    "level": "3",
+    "options": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ",
+        "ZeroMQ"
+    ],
+    "topic": "",
+    "_id": "6445dd2187ccd7fd3c489291",
+    "type": "multiple"
+}
+HTTP/1.1 400 Bad Request
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 80
+etag: W/"50-yIfdKYZ6a+mFhhR6pYPJvD9BtlI"
+date: Wed, 26 Apr 2023 18:04:32 GMT
+server: railway
+
+{
+    "statusCode": 400,
+    "message": [
+        "topic should not be empty"
+    ],
+    "error": "Bad Request"
+}
+Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "answer": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ"
+    ],
+    "level": "",
+    "options": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ",
+        "ZeroMQ"
+    ],
+    "topic": "Arquitectura Empresarial",
+    "_id": "6445dd2187ccd7fd3c489292",
+    "type": "multiple"
+}
+HTTP/1.1 400 Bad Request
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 133
+etag: W/"85-cVgNJCfu4CTd7nJC3JuiVYK0Gr0"
+date: Wed, 26 Apr 2023 18:04:33 GMT
+server: railway
+
+{
+    "statusCode": 400,
+    "message": [
+        "level must be one of the following values: 1, 2, 3",
+        "level should not be empty"
+    ],
+    "error": "Bad Request"
+}
+Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "",
+    "answer": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ"
+    ],
+    "level": "3",
+    "options": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ",
+        "ZeroMQ"
+    ],
+    "topic": "Arquitectura Empresarial",
+    "_id": "6445dd2187ccd7fd3c489293",
+    "type": "multiple"
+}
+HTTP/1.1 400 Bad Request
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 83
+etag: W/"53-niq7UG5xETB+sCUaGRdYIZwslUs"
+date: Wed, 26 Apr 2023 18:04:34 GMT
+server: railway
+
+{
+    "statusCode": 400,
+    "message": [
+        "sentence should not be empty"
+    ],
+    "error": "Bad Request"
+}
+Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "answer": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ"
+    ],
+    "level": "3",
+    "options": [
+        "",
+        "Kafka",
+        "ActiveMQ",
+        "ZeroMQ"
+    ],
+    "topic": "Arquitectura Empresarial",
+    "_id": "6445dd2187ccd7fd3c489294",
+    "type": "multiple"
+}
+HTTP/1.1 400 Bad Request
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 96
+etag: W/"60-1Xhz2RUPCfYLji/WzD9CCZDqOO8"
+date: Wed, 26 Apr 2023 18:04:34 GMT
+server: railway
+
+{
+    "statusCode": 400,
+    "message": [
+        "each value in options should not be empty"
+    ],
+    "error": "Bad Request"
+}
+Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "answer": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ"
+    ],
+    "level": "3",
+    "options": [
+        
+    ],
+    "topic": "Arquitectura Empresarial",
+    "_id": "6445dd2187ccd7fd3c489295",
+    "type": "multiple"
+}
+HTTP/1.1 400 Bad Request
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 95
+etag: W/"5f-8W2cKB7yGEq0G++TQJSQpciA/LA"
+date: Wed, 26 Apr 2023 18:04:35 GMT
+server: railway
+
+{
+    "statusCode": 400,
+    "message": [
+        "options must contain at least 1 elements"
+    ],
+    "error": "Bad Request"
+}
+Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "answer": [
+        
+    ],
+    "level": "3",
+    "options": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ",
+        "ZeroMQ"
+    ],
+    "topic": "Arquitectura Empresarial",
+    "_id": "6445dd2187ccd7fd3c489296",
+    "type": "multiple"
+}
+HTTP/1.1 400 Bad Request
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 94
+etag: W/"5e-3MEk2kj2NEfeWajQ/neSQDrb3Pw"
+date: Wed, 26 Apr 2023 18:04:35 GMT
+server: railway
+
+{
+    "statusCode": 400,
+    "message": [
+        "answer must contain at least 1 elements"
+    ],
+    "error": "Bad Request"
+}
+Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "answer": [
+        "RabbitMQ"
+    ],
+    "level": "3",
+    "options": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ",
+        "ZeroMQ"
+    ],
+    "topic": "Arquitectura Empresarial",
+    "_id": "6445dd2187ccd7fd3c489297",
+    "type": "multiple"
+}
+HTTP/1.1 201 Created
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 331
+etag: W/"14b-8rAqeenHGVG3tMPxB862DsufZ9A"
+date: Wed, 26 Apr 2023 18:04:36 GMT
+server: railway
+
+{
+    "topic": "Arquitectura Empresarial",
+    "level": "3",
+    "type": "multiple",
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "options": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ",
+        "ZeroMQ"
+    ],
+    "answer": [
+        "RabbitMQ"
+    ],
+    "_id": "6445dd2187ccd7fd3c489297"
+}
+Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "answer": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ"
+    ],
+    "level": "3",
+    "options": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ",
+        "ZeroMQ"
+    ],
+    "topic": "Arquitectura Empresarial",
+    "_id": "6445dd2187ccd7fd3c489298",
+    "type": "unique"
+}
+HTTP/1.1 201 Created
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 348
+etag: W/"15c-FPHNqLoelrJd9gpTHB2DxqHVGLY"
+date: Wed, 26 Apr 2023 18:04:37 GMT
+server: railway
+
+{
+    "topic": "Arquitectura Empresarial",
+    "level": "3",
+    "type": "unique",
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "options": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ",
+        "ZeroMQ"
+    ],
+    "answer": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ"
+    ],
+    "_id": "6445dd2187ccd7fd3c489298"
+}
+Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "answer": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ"
+    ],
+    "level": "3",
+    "options": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ",
+        "ZeroMQ"
+    ],
+    "topic": "Arquitectura Empresarial",
+    "_id": "6445dd2187ccd7fd3c489299",
+    "type": "truefalse"
+}
+HTTP/1.1 201 Created
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 351
+etag: W/"15f-vSUcOC22+vX0IoiV3xU5nTPcrlU"
+date: Wed, 26 Apr 2023 18:04:37 GMT
+server: railway
+
+{
+    "topic": "Arquitectura Empresarial",
+    "level": "3",
+    "type": "truefalse",
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "options": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ",
+        "ZeroMQ"
+    ],
+    "answer": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ"
+    ],
+    "_id": "6445dd2187ccd7fd3c489299"
+}
+Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "answer": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ"
+    ],
+    "level": "3",
+    "options": [
+        "RabbitMQ",
+        "Kafka"
+    ],
+    "topic": "Arquitectura Empresarial",
+    "_id": "6445dd2187ccd7fd3c489210",
+    "type": "multiple"
+}
+HTTP/1.1 201 Created
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 330
+etag: W/"14a-CUMIykwmYWAlFEK9nW4gkH4fIu0"
+date: Wed, 26 Apr 2023 18:04:38 GMT
+server: railway
+
+{
+    "topic": "Arquitectura Empresarial",
+    "level": "3",
+    "type": "multiple",
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "options": [
+        "RabbitMQ",
+        "Kafka"
+    ],
+    "answer": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ"
+    ],
+    "_id": "6445dd2187ccd7fd3c489210"
+}
+Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "answer": [
+        "RabbitMQ"
+    ],
+    "level": "3",
+    "options": [
+        "RabbitMQ",
+        "Kafka"
+    ],
+    "topic": "Arquitectura Empresarial",
+    "_id": "6445dd2187ccd7fd3c489211",
+    "type": "unique"
+}
+HTTP/1.1 201 Created
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 309
+etag: W/"135-84KacOQPbDTyXdIBvZJKbdvsz80"
+date: Wed, 26 Apr 2023 18:04:38 GMT
+server: railway
+
+{
+    "topic": "Arquitectura Empresarial",
+    "level": "3",
+    "type": "unique",
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "options": [
+        "RabbitMQ",
+        "Kafka"
+    ],
+    "answer": [
+        "RabbitMQ"
+    ],
+    "_id": "6445dd2187ccd7fd3c489211"
+}
+Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "answer": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ"
+    ],
+    "level": "3",
+    "options": [
+        "RabbitMQ",
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ",
+        "Prueba"
+    ],
+    "topic": "Arquitectura Empresarial",
+    "_id": "6445dd2187ccd7fd3c489212",
+    "type": "multiple"
+}
+HTTP/1.1 201 Created
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 361
+etag: W/"169-Ze93hckrj5tEYn2gz8YLUxhpDQY"
+date: Wed, 26 Apr 2023 18:04:39 GMT
+server: railway
+
+{
+    "topic": "Arquitectura Empresarial",
+    "level": "3",
+    "type": "multiple",
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "options": [
+        "RabbitMQ",
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ",
+        "Prueba"
+    ],
+    "answer": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ"
+    ],
+    "_id": "6445dd2187ccd7fd3c489212"
+}
+Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "answer": [
+        "RabbitMQ"
+    ],
+    "level": "3",
+    "options": [
+        "RabbitMQ",
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ",
+        "Prueba"
+    ],
+    "topic": "Arquitectura Empresarial",
+    "_id": "6445dd2187ccd7fd3c489213",
+    "type": "unique"
+}
+HTTP/1.1 201 Created
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 340
+etag: W/"154-vcVn9Kbla5G+Ttzs39j+qkO3u7w"
+date: Wed, 26 Apr 2023 18:04:40 GMT
+server: railway
+
+{
+    "topic": "Arquitectura Empresarial",
+    "level": "3",
+    "type": "unique",
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "options": [
+        "RabbitMQ",
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ",
+        "Prueba"
+    ],
+    "answer": [
+        "RabbitMQ"
+    ],
+    "_id": "6445dd2187ccd7fd3c489213"
+}
+Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "answer": [
+        "RabbitMQ",
+        "Kafka"
+    ],
+    "level": "3",
+    "options": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ"
+    ],
+    "topic": "Arquitectura Empresarial",
+    "_id": "6445dd2187ccd7fd3c489214",
+    "type": "truefalse"
+}
+HTTP/1.1 201 Created
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 331
+etag: W/"14b-f8Bp9pXk6gocctRZ+jgODhUxVCY"
+date: Wed, 26 Apr 2023 18:04:40 GMT
+server: railway
+
+{
+    "topic": "Arquitectura Empresarial",
+    "level": "3",
+    "type": "truefalse",
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "options": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ"
+    ],
+    "answer": [
+        "RabbitMQ",
+        "Kafka"
+    ],
+    "_id": "6445dd2187ccd7fd3c489214"
+}
+Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "answer": [
+        "RabbitMQ"
+    ],
+    "level": "3",
+    "options": [
+        "RabbitMQ"
+    ],
+    "topic": "Arquitectura Empresarial",
+    "_id": "6445dd2187ccd7fd3c489215",
+    "type": "truefalse"
+}
+HTTP/1.1 201 Created
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 304
+etag: W/"130-c85DIoouQNeWf5dhzVvbY5zZ3Pg"
+date: Wed, 26 Apr 2023 18:04:41 GMT
+server: railway
+
+{
+    "topic": "Arquitectura Empresarial",
+    "level": "3",
+    "type": "truefalse",
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "options": [
+        "RabbitMQ"
+    ],
+    "answer": [
+        "RabbitMQ"
+    ],
+    "_id": "6445dd2187ccd7fd3c489215"
+}
+Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "answer": [
+        "Prueba"
+    ],
+    "level": "3",
+    "options": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ",
+        "ZeroMQ"
+    ],
+    "topic": "Arquitectura Empresarial",
+    "_id": "6445dd2187ccd7fd3c489216",
+    "type": "multiple"
+}
+HTTP/1.1 201 Created
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 329
+etag: W/"149-QV7BhKKNMW7vPFo0S+tlfkeAR9o"
+date: Wed, 26 Apr 2023 18:04:41 GMT
+server: railway
+
+{
+    "topic": "Arquitectura Empresarial",
+    "level": "3",
+    "type": "multiple",
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "options": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ",
+        "ZeroMQ"
+    ],
+    "answer": [
+        "Prueba"
+    ],
+    "_id": "6445dd2187ccd7fd3c489216"
+}
+Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "answer": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ"
+    ],
+    "level": "3",
+    "options": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ",
+        "ZeroMQ"
+    ],
+    "topic": "Arquitectura Empresarial",
+    "_id": "6445dd2187ccd7fd3c489217",
+    "type": "multiple"
+}
+HTTP/1.1 201 Created
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 350
+etag: W/"15e-pvwlScqJrRotOk3CZuPlhRx4WO4"
+date: Wed, 26 Apr 2023 18:04:42 GMT
+server: railway
+
+{
+    "topic": "Arquitectura Empresarial",
+    "level": "3",
+    "type": "multiple",
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "options": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ",
+        "ZeroMQ"
+    ],
+    "answer": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ"
+    ],
+    "_id": "6445dd2187ccd7fd3c489217"
+}
+Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "answer": [
+        "RabbitMQ"
+    ],
+    "level": "3",
+    "options": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ",
+        "ZeroMQ"
+    ],
+    "topic": "Arquitectura Empresarial",
+    "_id": "6445dd2187ccd7fd3c489218",
+    "type": "unique"
+}
+HTTP/1.1 201 Created
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 329
+etag: W/"149-LjCrD0N3tp7lQyEBoiiMGPiC+B4"
+date: Wed, 26 Apr 2023 18:04:42 GMT
+server: railway
+
+{
+    "topic": "Arquitectura Empresarial",
+    "level": "3",
+    "type": "unique",
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "options": [
+        "RabbitMQ",
+        "Kafka",
+        "ActiveMQ",
+        "ZeroMQ"
+    ],
+    "answer": [
+        "RabbitMQ"
+    ],
+    "_id": "6445dd2187ccd7fd3c489218"
+}
+Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "answer": [
+        "Verdadero"
+    ],
+    "level": "3",
+    "options": [
+        "Verdadero",
+        "Falso"
+    ],
+    "topic": "Arquitectura Empresarial",
+    "_id": "6445dd2187ccd7fd3c489219",
+    "type": "truefalse"
+}
+HTTP/1.1 201 Created
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 314
+etag: W/"13a-MeiMwTuTur2esQYiIMI57b7hUPY"
+date: Wed, 26 Apr 2023 18:04:43 GMT
+server: railway
+
+{
+    "topic": "Arquitectura Empresarial",
+    "level": "3",
+    "type": "truefalse",
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "options": [
+        "Verdadero",
+        "Falso"
+    ],
+    "answer": [
+        "Verdadero"
+    ],
+    "_id": "6445dd2187ccd7fd3c489219"
+}
+Request method:	POST
+Request URI:	https://reto-q-backend-production.up.railway.app/question/new
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "answer": [
+        "Verdadero"
+    ],
+    "level": "3",
+    "options": [
+        "Verdadero",
+        "Falso"
+    ],
+    "topic": "Arquitectura Empresarial",
+    "_id": "6445dd2187ccd7fd3c489220",
+    "type": "truefalse"
+}
+HTTP/1.1 201 Created
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 314
+etag: W/"13a-Z4S/CSO5oEiHPagT7xEtuLDva8A"
+date: Wed, 26 Apr 2023 18:04:43 GMT
+server: railway
+
+{
+    "topic": "Arquitectura Empresarial",
+    "level": "3",
+    "type": "truefalse",
+    "sentence": "Â¿CuÃ¡l de las siguientes tecnologÃ­as se utiliza para garantizar la fiabilidad y disponibilidad de los mensajes en un sistema distribuido?",
+    "options": [
+        "Verdadero",
+        "Falso"
+    ],
+    "answer": [
+        "Verdadero"
+    ],
+    "_id": "6445dd2187ccd7fd3c489220"
+}
+]]></system-out>
+  <system-err><![CDATA[abr. 26, 2023 1:04:23 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:23 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:31 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+abr. 26, 2023 1:04:32 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition laInformacionDeLaPreguntaCreada
+INFO: io.restassured.internal.RestAssuredResponseImpl@b340615
+abr. 26, 2023 1:04:32 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition laInformacionDeLaPreguntaCreada
+INFO: Fin de la automatizacion hecha para probar el post de las  preguntas
+abr. 26, 2023 1:04:32 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:32 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:32 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+abr. 26, 2023 1:04:32 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition laInformacionDeLaPreguntaCreada
+INFO: io.restassured.internal.RestAssuredResponseImpl@2bc8caa7
+abr. 26, 2023 1:04:32 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition laInformacionDeLaPreguntaCreada
+INFO: Fin de la automatizacion hecha para probar el post de las  preguntas
+abr. 26, 2023 1:04:32 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:33 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:33 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+abr. 26, 2023 1:04:33 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition laInformacionDeLaPreguntaCreada
+INFO: io.restassured.internal.RestAssuredResponseImpl@44f23927
+abr. 26, 2023 1:04:33 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition laInformacionDeLaPreguntaCreada
+INFO: Fin de la automatizacion hecha para probar el post de las  preguntas
+abr. 26, 2023 1:04:33 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:33 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:34 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+abr. 26, 2023 1:04:34 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition laInformacionDeLaPreguntaCreada
+INFO: io.restassured.internal.RestAssuredResponseImpl@575c23f1
+abr. 26, 2023 1:04:34 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition laInformacionDeLaPreguntaCreada
+INFO: Fin de la automatizacion hecha para probar el post de las  preguntas
+abr. 26, 2023 1:04:34 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:34 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:35 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+abr. 26, 2023 1:04:35 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition laInformacionDeLaPreguntaCreada
+INFO: io.restassured.internal.RestAssuredResponseImpl@5ebfe7fa
+abr. 26, 2023 1:04:35 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition laInformacionDeLaPreguntaCreada
+INFO: Fin de la automatizacion hecha para probar el post de las  preguntas
+abr. 26, 2023 1:04:35 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:35 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:35 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+abr. 26, 2023 1:04:35 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition laInformacionDeLaPreguntaCreada
+INFO: io.restassured.internal.RestAssuredResponseImpl@2212e291
+abr. 26, 2023 1:04:35 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition laInformacionDeLaPreguntaCreada
+INFO: Fin de la automatizacion hecha para probar el post de las  preguntas
+abr. 26, 2023 1:04:35 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:35 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:36 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+abr. 26, 2023 1:04:36 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition laInformacionDeLaPreguntaCreada
+INFO: io.restassured.internal.RestAssuredResponseImpl@34626d4
+abr. 26, 2023 1:04:36 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition laInformacionDeLaPreguntaCreada
+INFO: Fin de la automatizacion hecha para probar el post de las  preguntas
+abr. 26, 2023 1:04:36 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:36 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:36 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+abr. 26, 2023 1:04:36 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:36 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:37 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+abr. 26, 2023 1:04:37 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:37 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:38 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+abr. 26, 2023 1:04:38 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:38 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:38 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+abr. 26, 2023 1:04:38 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:38 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:39 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+abr. 26, 2023 1:04:39 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:39 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:39 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+abr. 26, 2023 1:04:39 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:39 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:40 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+abr. 26, 2023 1:04:40 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:40 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:40 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+abr. 26, 2023 1:04:40 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:40 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:41 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+abr. 26, 2023 1:04:41 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:41 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:42 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+abr. 26, 2023 1:04:42 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:42 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:42 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+abr. 26, 2023 1:04:42 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition laInformacionDeLaPreguntaCreada
+INFO: Fin de la automatizacion hecha para probar el post de las  preguntas
+abr. 26, 2023 1:04:42 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:42 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:43 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+abr. 26, 2023 1:04:43 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition laInformacionDeLaPreguntaCreada
+INFO: Fin de la automatizacion hecha para probar el post de las  preguntas
+abr. 26, 2023 1:04:43 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:43 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:43 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+abr. 26, 2023 1:04:43 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition laInformacionDeLaPreguntaCreada
+INFO: Fin de la automatizacion hecha para probar el post de las  preguntas
+abr. 26, 2023 1:04:43 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApi
+INFO: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 1:04:43 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition cuandoEnvioLaInformacionDeUnaPreguntaMedianteEl
+INFO: Se selecciona el json que sera enviado para probar y se envia el recurso de la url
+abr. 26, 2023 1:04:44 P. M. com.sofkau.stepdefinitions.CrearPreguntaStepDefinition reciboDeCodigoDeRespuesta
+INFO: Inician los asserts
+]]></system-err>
+</testsuite>

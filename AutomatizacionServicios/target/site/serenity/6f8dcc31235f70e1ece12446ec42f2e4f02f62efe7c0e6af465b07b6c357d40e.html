@@ -217,7 +217,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-04-2023 10:25</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-04-2023 13:05</span>
     <br style="clear:left"/>
 </div>
 
@@ -288,7 +288,7 @@ para ver mi la informacion
                                                                             <a style="margin-left:0.5em;padding-right: 1.5em;"
                                                                                href="476d7263973a8afaba430268ce21b62e47abeffdc7ded7d5c39035df5d2f3e06.html"
                                                                                title="View test results">
-                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
                                                                             </a>
 
                                                                         
@@ -340,7 +340,7 @@ para ver mi la informacion
                                             <h3>Scenario details</h3>
 
                                                 <div class="scenario-docs card" id="4ff36e5936a5bdcfc74a0d7ea54d3703a8c6690cbc4a584be88bae1bc4eb4b41">
-                                                    <div class="scenario-docs card-header success" style="min-height:1.5em;">
+                                                    <div class="scenario-docs card-header failure" style="min-height:1.5em;">
                                                         <div>
                                                             <span class="scenario-heading">
                                                                 <a href="476d7263973a8afaba430268ce21b62e47abeffdc7ded7d5c39035df5d2f3e06.html" title="View test results">Peticion exitosa</a>
@@ -348,19 +348,19 @@ para ver mi la informacion
                                                             <span class="scenario-result-icon">
                                                                 
 
-                                                                    <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                    <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="scenario-docs card-body">
                                                             <p>Given que estoy en el API</p>
                                                             <p>When envio la peticion get con el {id} del usuario</p>
-                                                            <p>Then recibo {code} de codigo de respuesta y la informacion del usuario {nombre}, {correo} y {role}</p>
+                                                            <p>Then recibo {statuscode} respuesta y la informacion del usuario {nombre}, {correo} y {role}</p>
                                                         <div class="examples">
                                                             <p><p>Examples:</p>
 <div class='example-table-in-scenario'><table>
 <thead>
-<tr><th>id</th><th>code</th><th>nombre</th><th>correo</th><th>role</th><th></th></tr>
+<tr><th>id</th><th>statuscode</th><th>nombre</th><th>correo</th><th>role</th><th></th></tr>
 </thead>
 <tbody>
 <tr><td>&quot;6448009e290ed9efcf934420&quot;</td><td>200</td><td>&quot;Efrain&quot;</td><td>&quot;efsolora@gmail.com&quot;</td><td>&quot;User&quot;</td><td> </td></tr>
@@ -389,12 +389,12 @@ para ver mi la informacion
                                                     <div class="scenario-docs card-body">
                                                             <p>Given que estoy en el API-Q</p>
                                                             <p>When envio la peticion get con el {id} invalido</p>
-                                                            <p>Then recibo {code} de codigo de respuesta</p>
+                                                            <p>Then recibo {statuscode} de respuesta</p>
                                                         <div class="examples">
                                                             <p><p>Examples:</p>
 <div class='example-table-in-scenario'><table>
 <thead>
-<tr><th>id</th><th>code</th><th></th></tr>
+<tr><th>id</th><th>statuscode</th><th></th></tr>
 </thead>
 <tbody>
 <tr><td>&quot;  64481f6cfbc80a45d9c97945&quot;</td><td>500</td><td> </td></tr>
@@ -421,10 +421,10 @@ para ver mi la informacion
                                             </div>
                                             <script>
 
-                                                var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+                                                var labels = ['50%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '50%', ' ', ' ', ' ', ' ', ' '];
                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                var series = [{meta: 'Passing tests (automated)', value: 6}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                var series = [{meta: 'Passing tests (automated)', value: 3}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 3}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                 // as you saw in the previous example
@@ -465,8 +465,8 @@ para ver mi la informacion
                                                                         <a href="e59d11abd2b3860cfd026ae9aeaebaf386b9afbf699c6d3572a8ef1b6aff563f.html"><i
                                                                                 class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
                                                                     </td>
-                                                <td class="automated-stats">6</td>
-                                                <td class="automated-stats">100%</td>
+                                                <td class="automated-stats">3</td>
+                                                <td class="automated-stats">50%</td>
                                             </tr>
                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -490,19 +490,19 @@ para ver mi la informacion
                                                 <td class="automated-stats"> </td>
                                             </tr>
                                             <tr>
-                                                                            <td colspan="3"><i
-                                                                                class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
+                                                                             <td colspan="3"><a href="c9e305a65dfb86a42baa6f730319ea6247d3639cf19328c42f623d6aef4b6e63.html"><i
+                                                                                    class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
                                                                             </td>
 
                                             </tr>
 
                                             <tr>
-                                                                <td class="aggregate-result-count indented-error-category">
-                                                                    <i
-                                                                            class='fa fa-times-circle failure-icon'></i>&nbsp;Failed
-                                                                </td>
-                                                <td class="automated-stats">0</td>
-                                                <td class="automated-stats"> </td>
+                                                                    <td class="aggregate-result-count indented-error-category">
+                                                                        <a href="d21a97fee1692cdb5693947f13cd75c0cbb3ce6a2da576adfbd7d9ebb0561c2c.html"><i
+                                                                                class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
+                                                                    </td>
+                                                <td class="automated-stats">3</td>
+                                                <td class="automated-stats">50%</td>
                                             <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -542,11 +542,11 @@ para ver mi la informacion
                                                     </thead>
                                                     <tbody>
                                                     <tr>
-                                                        <td>8s</td>
-                                                        <td>7s</td>
-                                                        <td>482ms</td>
-                                                        <td>5s</td>
-                                                        <td>4s</td>
+                                                        <td>3s</td>
+                                                        <td>1s</td>
+                                                        <td>459ms</td>
+                                                        <td>613ms</td>
+                                                        <td>1s</td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -569,17 +569,17 @@ para ver mi la informacion
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr class="scenario-result SUCCESS">
+                                                <tr class="scenario-result FAILURE">
                                                     <td>
                                                             <a href="476d7263973a8afaba430268ce21b62e47abeffdc7ded7d5c39035df5d2f3e06.html">Peticion exitosa</a>
                                                                (3 examples)
                                                     </td>
                                                     <td>3</td>
-                                                    <td>10:25:26</td>
-                                                    <td>7s 319ms</td>
+                                                    <td>13:05:06</td>
+                                                    <td>1s 800ms</td>
                                                     <td>
-                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                                style="display:none">SUCCESS</span>
+                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                style="display:none">FAILURE</span>
                                                     </td>
                                                 </tr>
                                                 <tr class="scenario-result SUCCESS">
@@ -588,8 +588,8 @@ para ver mi la informacion
                                                                (3 examples)
                                                     </td>
                                                     <td>3</td>
-                                                    <td>10:25:33</td>
-                                                    <td>1s 538ms</td>
+                                                    <td>13:05:07</td>
+                                                    <td>1s 490ms</td>
                                                     <td>
                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                 style="display:none">SUCCESS</span>

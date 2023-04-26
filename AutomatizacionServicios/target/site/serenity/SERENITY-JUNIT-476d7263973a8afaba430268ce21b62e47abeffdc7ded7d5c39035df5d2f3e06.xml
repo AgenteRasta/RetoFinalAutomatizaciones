@@ -1,1 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Ver informacion de un usuarios en la base de datos" skipped="0" tests="6" time="8.86" timestamp="2023-04-26 10:25:26"><testcase name="Peticion exitosa"/><testcase name="Peticion fallida"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="Ver informacion de un usuarios en la base de datos" skipped="0" tests="6" time="3.29" timestamp="2023-04-26 01:05:06"><testcase name="Peticion exitosa"><failure message="&#10;Expected: &quot;Efrain&quot;&#10;     but: was &quot;Bruno 2&quot;&#13;&#10;&#10;Expected: &quot;efsolora@gmail.com&quot;&#10;     but: was &quot;bruno.fernandez.r@estudiantes.utec.edu.uy&quot;" type="java.lang.AssertionError">
+Expected: "Efrain"
+     but: was "Bruno 2"&#13;
+
+Expected: "efsolora@gmail.com"
+     but: was "bruno.fernandez.r@estudiantes.utec.edu.uy"</failure><system-err>
+Expected: "Efrain"
+     but: was "Bruno 2"&#13;
+
+Expected: "efsolora@gmail.com"
+     but: was "bruno.fernandez.r@estudiantes.utec.edu.uy"&#13;
+com.sofkau.stepdefinitions.GetIdUserStepDefinition.recibo_respuesta_y_la_informacion_del_usuario_y(GetIdUserStepDefinition.java:64)&#13;
+✽.recibo 200 respuesta y la informacion del usuario "Efrain", "efsolora@gmail.com" y "User"(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/getuserid.feature:10)&#13;
+</system-err></testcase><testcase name="Peticion fallida"/></testsuite>

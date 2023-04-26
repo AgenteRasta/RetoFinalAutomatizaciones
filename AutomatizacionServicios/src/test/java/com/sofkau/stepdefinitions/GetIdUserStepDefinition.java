@@ -25,7 +25,7 @@ public class GetIdUserStepDefinition extends ApiSetUp {
     public static Logger LOGGER = Logger.getLogger(String.valueOf(GetIdUserStepDefinition.class));
     JSONObject resBody = null;
     JSONParser parser = new JSONParser();
-    JSONArray jsonArray = null;
+
  
     @Given("que estoy en el API")
     public void que_estoy_en_el_API() {
@@ -56,8 +56,8 @@ public class GetIdUserStepDefinition extends ApiSetUp {
         }
     }
 
-    @Then("recibo {int} de codigo de respuesta y la informacion del usuario {string}, {string} y {string}")
-    public void recibo_de_codigo_de_respuesta_y_la_informacion_del_usuario_y(Integer statuscode, String nombre, String correo, String role) {
+    @Then("recibo {int} respuesta y la informacion del usuario {string}, {string} y {string}")
+    public void recibo_respuesta_y_la_informacion_del_usuario_y(Integer statuscode, String nombre, String correo, String role) {
         try{
             Response actualResponse = (Response) returnApiJsonResponse().answeredBy(actor);
             resBody = (JSONObject) parser.parse(actualResponse.getBody().asString());
@@ -109,8 +109,8 @@ public class GetIdUserStepDefinition extends ApiSetUp {
         }
     }
 
-    @Then("recibo {int} de codigo de respuesta")
-    public void recibo_de_codigo_de_respuesta(Integer statuscode) {
+    @Then("recibo {int} de respuesta")
+    public void recibo_de_respuesta(Integer statuscode) {
         try{
             Response actualResponse = (Response) returnApiJsonResponse().answeredBy(actor);
             resBody = (JSONObject) parser.parse(actualResponse.getBody().asString());

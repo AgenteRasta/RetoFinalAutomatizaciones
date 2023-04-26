@@ -22,10 +22,10 @@ Feature: Crear usuario ne la base de datos
       | fullName    | email                       | level | avaliable | values  | role    | statuscode |
       | ""          | "cristian1234@gmail.com"    | "2"   | "true"    | "true"  | "User"  | 400        |
       | "Cristian"  | ""                          | "2"   | "true"    | "true"  | "User"  | 400        |
-      | "Cristian"  | "cristian1234556@gmail.com" | "5"   | "true"    | "true"  | "User"  | 400        |
-      | "Cristian"  | "cristian12556@gmail.com"   | "2"   | "true"    | ""      | "User"  | 500        |
-      | "Cristian"  | "cristian34556@gmail.com"   | "2"   | "true"    | "false" | ""      | 400        |
-      | "343243242" | "cristi234556@gmail.com"    | "2"   | "false"   | ""      | "Admin" | 500        |
+      | "Cristian"  | "@gmail.com"                | "5"   | "true"    | "true"  | "User"  | 400        |
+      | "Cristian"  | "12556@gmail.com"           | "2"   | "true"    | ""      | "User"  | 400        |
+      | "Cristian"  | "cristian34556@.com"        | "2"   | "true"    | "false" | ""      | 400        |
+      | "343243242" | "cristi234556@"             | "2"   | ""        | "true"  | "Admin" | 400       |
       | "dadwada"   | "crian1234556@gmail.com"    | " "   | "true"    | ""      | "User"  | 400        |
       | "Cristian"  | "cristi556@gmail.com"       | "rii" | "false"   | ""      | "Admin" | 400        |
-      | "Cristian"  | "cristian1234556@gmail.com" | "2"   | ""        | ""      | "QA"    | 400        |
+      | "Cristian"  | "cristian1234556@gmail.com" | "-2"  | "332234"  | ""      | "QA"    | 400        |

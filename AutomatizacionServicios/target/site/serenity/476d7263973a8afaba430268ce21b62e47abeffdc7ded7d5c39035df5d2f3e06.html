@@ -148,7 +148,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-04-2023 10:25</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-04-2023 13:05</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -185,9 +185,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">
+                                <span class="failing-color">
                                     Peticion exitosa
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -249,7 +249,7 @@
         <div class="story-title">
             <h3 class="story-header">Scenario Outline</h3>
 
-            <div class="scenario">Given que estoy en el API<br>When envio la peticion get con el &lt;id&gt; del usuario<br>Then recibo &lt;code&gt; de codigo de respuesta y la informacion del usuario &lt;nombre&gt;, &lt;correo&gt; y &lt;role&gt;</div>
+            <div class="scenario">Given que estoy en el API<br>When envio la peticion get con el &lt;id&gt; del usuario<br>Then recibo &lt;statuscode&gt; respuesta y la informacion del usuario &lt;nombre&gt;, &lt;correo&gt; y &lt;role&gt;</div>
 
         </div>
 
@@ -268,7 +268,7 @@
                     <tr>
                         <th>#</th>
                             <th>Id</th>
-                            <th>Code</th>
+                            <th>Statuscode</th>
                             <th>Nombre</th>
                             <th>Correo</th>
                             <th>Role</th>
@@ -276,56 +276,56 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="test-SUCCESS"><a href="#0">1</a></td>
-                                <td class="test-SUCCESS"><a
+                            <td class="test-FAILURE"><a href="#0">1</a></td>
+                                <td class="test-FAILURE"><a
                                             href="#0">"6448009e290ed9efcf934420"</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-FAILURE"><a
                                             href="#0">200</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-FAILURE"><a
                                             href="#0">"Efrain"</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-FAILURE"><a
                                             href="#0">"efsolora@gmail.com"</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-FAILURE"><a
                                             href="#0">"User"</a>
                                 </td>
                         </tr>
                         <tr>
-                            <td class="test-SUCCESS"><a href="#1">2</a></td>
-                                <td class="test-SUCCESS"><a
+                            <td class="test-FAILURE"><a href="#1">2</a></td>
+                                <td class="test-FAILURE"><a
                                             href="#1">"64481f6cfbc80a45d9c97945"</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-FAILURE"><a
                                             href="#1">200</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-FAILURE"><a
                                             href="#1">"Andres"</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-FAILURE"><a
                                             href="#1">"esogaviria@gmail.com.com"</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-FAILURE"><a
                                             href="#1">"Admin"</a>
                                 </td>
                         </tr>
                         <tr>
-                            <td class="test-SUCCESS"><a href="#2">3</a></td>
-                                <td class="test-SUCCESS"><a
+                            <td class="test-FAILURE"><a href="#2">3</a></td>
+                                <td class="test-FAILURE"><a
                                             href="#2">"64483a9bfbc80a45d9c97a4a"</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-FAILURE"><a
                                             href="#2">200</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-FAILURE"><a
                                             href="#2">"lisa"</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-FAILURE"><a
                                             href="#2">"earrieta58@gmail.com.com"</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-FAILURE"><a
                                             href="#2">"User"</a>
                                 </td>
                         </tr>
@@ -350,13 +350,13 @@
                     <td colspan="5"></td>
                 </tr>
 
-                    <tr class="test-SUCCESS">
+                    <tr class="test-FAILURE">
 
                         <td width="50" class="step-icon">
                             <a name="0"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection0 failure-icon"
                                        style="margin-left: 20px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -366,7 +366,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                    style="display:block;">
                                     <span class="top-level-step">
-                                                Example: {id="6448009e290ed9efcf934420", code=200, nombre="Efrain", correo="efsolora@gmail.com", role="User"}
+                                                Example: {id="6448009e290ed9efcf934420", statuscode=200, nombre="Efrain", correo="efsolora@gmail.com", role="User"}
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -374,8 +374,8 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">5.86s</span></td>
+                        <td width="130"><span class="top-level-step">FAILURE</span></td>
+                        <td width="100"><span class="top-level-step">0.61s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -401,7 +401,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">0.24s</span></td>
+                        <td width="100"><span class="nested-group-step">0.01s</span></td>
                     </tr>
                     <tr class="test-SUCCESS">
 
@@ -428,7 +428,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">5.32s</span></td>
+                        <td width="100"><span class="nested-step">0.53s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -459,7 +459,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">4.85s</span></td>
+                        <td width="100"><span class="nested-step">0.51s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -490,7 +490,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">4.8s</span></td>
+                        <td width="100"><span class="nested-step">0.46s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -533,9 +533,9 @@
                                         <h4>Request Cookies</h4>
                                         <pre></pre>
                                         <h4>Response Headers</h4>
-                                        <pre>x-powered-by: Express<br>access-control-allow-origin: *<br>content-type: application/json; charset=utf-8<br>content-length: 126<br>etag: W/&quot;7e-YYqTQs6BKqH7EJv8x9ifT6hEF+g&quot;<br>date: Wed, 26 Apr 2023 15:25:32 GMT<br>server: railway</pre>
+                                        <pre>x-powered-by: Express<br>access-control-allow-origin: *<br>content-type: application/json; charset=utf-8<br>content-length: 150<br>etag: W/&quot;96-F3ubrnAd8qsnneiBULs9+NnA4t4&quot;<br>date: Wed, 26 Apr 2023 18:05:06 GMT<br>server: railway</pre>
                                     <h4>Response Body</h4>
-                                        <pre>{<br>    &quot;_id&quot;: &quot;6448009e290ed9efcf934420&quot;,<br>    &quot;fullName&quot;: &quot;Efrain&quot;,<br>    &quot;email&quot;: &quot;efsolora@gmail.com&quot;,<br>    &quot;level&quot;: &quot;2&quot;,<br>    &quot;available&quot;: true,<br>    &quot;role&quot;: &quot;User&quot;<br>}</pre>
+                                        <pre>{<br>    &quot;_id&quot;: &quot;6448009e290ed9efcf934420&quot;,<br>    &quot;fullName&quot;: &quot;Bruno 2&quot;,<br>    &quot;email&quot;: &quot;bruno.fernandez.r@estudiantes.utec.edu.uy&quot;,<br>    &quot;level&quot;: &quot;2&quot;,<br>    &quot;available&quot;: true,<br>    &quot;role&quot;: &quot;User&quot;<br>}</pre>
                                 </div>
                             </div>
                         </div>
@@ -560,13 +560,13 @@
                                 </table>
                             </td>
                         </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-FAILURE">
 
                         <td width="70" class="step-icon">
                             <a name="0-2"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-2')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection0-2 success-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection0-2 failure-icon"
                                        style="margin-left: 40px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -576,7 +576,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-2')"
                                    style="display:block;">
                                     <span class="nested-step">
-                                                Then recibo 200 de codigo de respuesta y la informacion del usuario "Efrain", "efsolora@gmail.com" y "User"
+                                                Then recibo 200 respuesta y la informacion del usuario "Efrain", "efsolora@gmail.com" y "User"
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -584,8 +584,8 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">0.26s</span></td>
+                        <td width="130"><span class="nested-step">FAILURE</span></td>
+                        <td width="100"><span class="nested-step">0.05s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -603,7 +603,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                El codigo de respuesta es: {'role':'User','level':'2','available':true,'fullName':'Efrain','_id':'6448009e290ed9efcf934420','email':'efsolora@gmail.com'}
+                                                El codigo de respuesta es: {'role':'User','level':'2','available':true,'fullName':'Bruno 2','_id':'6448009e290ed9efcf934420','email':'bruno.fernandez.r@estudiantes.utec.edu.uy'}
                                         </span>
                                 <span class="evidence">
                                 </span>
@@ -611,7 +611,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">0.04s</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
                     <tr class="test-SUCCESS">
 
@@ -633,14 +633,14 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">0.01s</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-FAILURE">
 
                         <td width="90" class="step-icon">
                             <a name="0-2-2"></a>
                                 <span style="margin-left: 60px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
                                 </span>
                         </td>
 
@@ -654,15 +654,53 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="130"><span class="nested-group-step">FAILURE</span></td>
                         <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                        <tr class="test-FAILURE">
+                            <td width="40">&nbsp</td>
+                            <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">java.lang.AssertionError: <br>Expected: &quot;Efrain&quot;<br>     but: was &quot;Bruno 2&quot;</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-10""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-10">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.sofkau.stepdefinitions.GetIdUserStepDefinition.recibo_respuesta_y_la_informacion_del_usuario_y(GetIdUserStepDefinition.java:64)<br />io.cucumber.java.Invoker.invoke(Invoker.java:27)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:49)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:51)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:67)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:227)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                            </td>
+                        </tr>
+                    <tr class="test-FAILURE">
 
                         <td width="90" class="step-icon">
                             <a name="0-2-3"></a>
                                 <span style="margin-left: 60px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
                                 </span>
                         </td>
 
@@ -676,9 +714,47 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="130"><span class="nested-group-step">FAILURE</span></td>
                         <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
+                        <tr class="test-FAILURE">
+                            <td width="40">&nbsp</td>
+                            <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">java.lang.AssertionError: <br>Expected: &quot;efsolora@gmail.com&quot;<br>     but: was &quot;bruno.fernandez.r@estudiantes.utec.edu.uy&quot;</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-11""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-11">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.sofkau.stepdefinitions.GetIdUserStepDefinition.recibo_respuesta_y_la_informacion_del_usuario_y(GetIdUserStepDefinition.java:64)<br />io.cucumber.java.Invoker.invoke(Invoker.java:27)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:49)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:51)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:67)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:227)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                            </td>
+                        </tr>
                     <tr class="test-SUCCESS">
 
                         <td width="90" class="step-icon">
@@ -709,13 +785,13 @@
                                 </table>
                             </td>
                         </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-FAILURE">
 
                         <td width="50" class="step-icon">
                             <a name="1"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection1 success-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection1 failure-icon"
                                        style="margin-left: 20px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -725,7 +801,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
                                    style="display:block;">
                                     <span class="top-level-step">
-                                                Example: {id="64481f6cfbc80a45d9c97945", code=200, nombre="Andres", correo="esogaviria@gmail.com.com", role="Admin"}
+                                                Example: {id="64481f6cfbc80a45d9c97945", statuscode=200, nombre="Andres", correo="esogaviria@gmail.com.com", role="Admin"}
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -733,8 +809,8 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">0.62s</span></td>
+                        <td width="130"><span class="top-level-step">FAILURE</span></td>
+                        <td width="100"><span class="top-level-step">0.59s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -787,7 +863,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">0.56s</span></td>
+                        <td width="100"><span class="nested-step">0.53s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -818,7 +894,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">0.55s</span></td>
+                        <td width="100"><span class="nested-step">0.52s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -849,7 +925,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">0.54s</span></td>
+                        <td width="100"><span class="nested-step">0.51s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -883,7 +959,7 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h4>Response</h4>
-                                        <p>Status code: 200</p>
+                                        <p>Status code: 500</p>
                                         <p>Content Type: application/json</p>
                                         <h4>Request Headers</h4>
                                         <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
@@ -892,9 +968,9 @@
                                         <h4>Request Cookies</h4>
                                         <pre></pre>
                                         <h4>Response Headers</h4>
-                                        <pre>x-powered-by: Express<br>access-control-allow-origin: *<br>content-type: application/json; charset=utf-8<br>content-length: 133<br>etag: W/&quot;85-OOcfn0fNO0OE/3hES2DW1ZS7tEg&quot;<br>date: Wed, 26 Apr 2023 15:25:33 GMT<br>server: railway</pre>
+                                        <pre>x-powered-by: Express<br>access-control-allow-origin: *<br>content-type: application/json; charset=utf-8<br>content-length: 78<br>etag: W/&quot;4e-tWYuIUMnteGqsMYQq/BNBWHqTyQ&quot;<br>date: Wed, 26 Apr 2023 18:05:07 GMT<br>server: railway</pre>
                                     <h4>Response Body</h4>
-                                        <pre>{<br>    &quot;_id&quot;: &quot;64481f6cfbc80a45d9c97945&quot;,<br>    &quot;fullName&quot;: &quot;Andres&quot;,<br>    &quot;email&quot;: &quot;esogaviria@gmail.com.com&quot;,<br>    &quot;level&quot;: &quot;3&quot;,<br>    &quot;available&quot;: true,<br>    &quot;role&quot;: &quot;Admin&quot;<br>}</pre>
+                                        <pre>{<br>    &quot;statusCode&quot;: 500,<br>    &quot;message&quot;: &quot;User not found!&quot;,<br>    &quot;error&quot;: &quot;Internal Server Error&quot;<br>}</pre>
                                 </div>
                             </div>
                         </div>
@@ -919,13 +995,13 @@
                                 </table>
                             </td>
                         </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-FAILURE">
 
                         <td width="70" class="step-icon">
                             <a name="1-2"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-2')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection1-2 success-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection1-2 failure-icon"
                                        style="margin-left: 40px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -935,7 +1011,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-2')"
                                    style="display:block;">
                                     <span class="nested-step">
-                                                Then recibo 200 de codigo de respuesta y la informacion del usuario "Andres", "esogaviria@gmail.com.com" y "Admin"
+                                                Then recibo 200 respuesta y la informacion del usuario "Andres", "esogaviria@gmail.com.com" y "Admin"
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -943,41 +1019,79 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">0.02s</span></td>
+                        <td width="130"><span class="nested-step">FAILURE</span></td>
+                        <td width="100"><span class="nested-step">0.04s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
                                 <table id="stepSection1-2" class="step-table-nested" style="display:none;">
 
-                    <tr class="test-SUCCESS">
+                    <tr class="test-FAILURE">
 
                         <td width="90" class="step-icon">
                             <a name="1-2-0"></a>
                                 <span style="margin-left: 60px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
                                 </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                El codigo de respuesta es: {'role':'Admin','level':'3','available':true,'fullName':'Andres','_id':'64481f6cfbc80a45d9c97945','email':'esogaviria@gmail.com.com'}
+                                                El codigo de respuesta es: {'message':'User not found!','error':'Internal Server Error','statusCode':500}
                                         </span>
                                 <span class="evidence">
                                 </span>
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="130"><span class="nested-group-step">FAILURE</span></td>
                         <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                        <tr class="test-FAILURE">
+                            <td width="40">&nbsp</td>
+                            <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">java.lang.AssertionError: 1 expectation failed.<br>Expected status code &lt;200&gt; but was &lt;500&gt;.<br></span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-20""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-20">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)<br />io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)<br />com.sofkau.stepdefinitions.GetIdUserStepDefinition.lambda$recibo_respuesta_y_la_informacion_del_usuario_y$0(GetIdUserStepDefinition.java:66)<br />com.sofkau.stepdefinitions.GetIdUserStepDefinition.recibo_respuesta_y_la_informacion_del_usuario_y(GetIdUserStepDefinition.java:64)<br />io.cucumber.java.Invoker.invoke(Invoker.java:27)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:49)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:51)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:67)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:227)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                            </td>
+                        </tr>
+                    <tr class="test-SKIPPED">
 
                         <td width="90" class="step-icon">
                             <a name="1-2-1"></a>
                                 <span style="margin-left: 60px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -991,15 +1105,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
                         <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="90" class="step-icon">
                             <a name="1-2-2"></a>
                                 <span style="margin-left: 60px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -1013,15 +1127,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
                         <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="90" class="step-icon">
                             <a name="1-2-3"></a>
                                 <span style="margin-left: 60px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -1035,15 +1149,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">0s</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">0.01s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="90" class="step-icon">
                             <a name="1-2-4"></a>
                                 <span style="margin-left: 60px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -1057,7 +1171,7 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
                         <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
 
@@ -1068,13 +1182,13 @@
                                 </table>
                             </td>
                         </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-FAILURE">
 
                         <td width="50" class="step-icon">
                             <a name="2"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection2 success-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection2 failure-icon"
                                        style="margin-left: 20px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -1084,7 +1198,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
                                    style="display:block;">
                                     <span class="top-level-step">
-                                                Example: {id="64483a9bfbc80a45d9c97a4a", code=200, nombre="lisa", correo="earrieta58@gmail.com.com", role="User"}
+                                                Example: {id="64483a9bfbc80a45d9c97a4a", statuscode=200, nombre="lisa", correo="earrieta58@gmail.com.com", role="User"}
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -1092,8 +1206,8 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">0.54s</span></td>
+                        <td width="130"><span class="top-level-step">FAILURE</span></td>
+                        <td width="100"><span class="top-level-step">0.55s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -1177,7 +1291,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">0.49s</span></td>
+                        <td width="100"><span class="nested-step">0.5s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -1242,7 +1356,7 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h4>Response</h4>
-                                        <p>Status code: 200</p>
+                                        <p>Status code: 500</p>
                                         <p>Content Type: application/json</p>
                                         <h4>Request Headers</h4>
                                         <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
@@ -1251,9 +1365,9 @@
                                         <h4>Request Cookies</h4>
                                         <pre></pre>
                                         <h4>Response Headers</h4>
-                                        <pre>x-powered-by: Express<br>access-control-allow-origin: *<br>content-type: application/json; charset=utf-8<br>content-length: 130<br>etag: W/&quot;82-FeLgns4mW38qQtYdsNwjwgCmbgg&quot;<br>date: Wed, 26 Apr 2023 15:25:33 GMT<br>server: railway</pre>
+                                        <pre>x-powered-by: Express<br>access-control-allow-origin: *<br>content-type: application/json; charset=utf-8<br>content-length: 78<br>etag: W/&quot;4e-tWYuIUMnteGqsMYQq/BNBWHqTyQ&quot;<br>date: Wed, 26 Apr 2023 18:05:07 GMT<br>server: railway</pre>
                                     <h4>Response Body</h4>
-                                        <pre>{<br>    &quot;_id&quot;: &quot;64483a9bfbc80a45d9c97a4a&quot;,<br>    &quot;fullName&quot;: &quot;lisa&quot;,<br>    &quot;email&quot;: &quot;earrieta58@gmail.com.com&quot;,<br>    &quot;level&quot;: &quot;3&quot;,<br>    &quot;available&quot;: true,<br>    &quot;role&quot;: &quot;User&quot;<br>}</pre>
+                                        <pre>{<br>    &quot;statusCode&quot;: 500,<br>    &quot;message&quot;: &quot;User not found!&quot;,<br>    &quot;error&quot;: &quot;Internal Server Error&quot;<br>}</pre>
                                 </div>
                             </div>
                         </div>
@@ -1278,13 +1392,13 @@
                                 </table>
                             </td>
                         </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-FAILURE">
 
                         <td width="70" class="step-icon">
                             <a name="2-2"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2-2')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection2-2 success-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection2-2 failure-icon"
                                        style="margin-left: 40px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -1294,7 +1408,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2-2')"
                                    style="display:block;">
                                     <span class="nested-step">
-                                                Then recibo 200 de codigo de respuesta y la informacion del usuario "lisa", "earrieta58@gmail.com.com" y "User"
+                                                Then recibo 200 respuesta y la informacion del usuario "lisa", "earrieta58@gmail.com.com" y "User"
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -1302,41 +1416,79 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-step">SUCCESS</span></td>
+                        <td width="130"><span class="nested-step">FAILURE</span></td>
                         <td width="100"><span class="nested-step">0.02s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
                                 <table id="stepSection2-2" class="step-table-nested" style="display:none;">
 
-                    <tr class="test-SUCCESS">
+                    <tr class="test-FAILURE">
 
                         <td width="90" class="step-icon">
                             <a name="2-2-0"></a>
                                 <span style="margin-left: 60px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
                                 </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                El codigo de respuesta es: {'role':'User','level':'3','available':true,'fullName':'lisa','_id':'64483a9bfbc80a45d9c97a4a','email':'earrieta58@gmail.com.com'}
+                                                El codigo de respuesta es: {'message':'User not found!','error':'Internal Server Error','statusCode':500}
                                         </span>
                                 <span class="evidence">
                                 </span>
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="130"><span class="nested-group-step">FAILURE</span></td>
                         <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                        <tr class="test-FAILURE">
+                            <td width="40">&nbsp</td>
+                            <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">java.lang.AssertionError: 1 expectation failed.<br>Expected status code &lt;200&gt; but was &lt;500&gt;.<br></span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-32""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-32">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)<br />io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)<br />com.sofkau.stepdefinitions.GetIdUserStepDefinition.lambda$recibo_respuesta_y_la_informacion_del_usuario_y$0(GetIdUserStepDefinition.java:66)<br />com.sofkau.stepdefinitions.GetIdUserStepDefinition.recibo_respuesta_y_la_informacion_del_usuario_y(GetIdUserStepDefinition.java:64)<br />io.cucumber.java.Invoker.invoke(Invoker.java:27)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:49)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:51)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:67)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:227)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                            </td>
+                        </tr>
+                    <tr class="test-SKIPPED">
 
                         <td width="90" class="step-icon">
                             <a name="2-2-1"></a>
                                 <span style="margin-left: 60px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -1350,15 +1502,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
                         <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="90" class="step-icon">
                             <a name="2-2-2"></a>
                                 <span style="margin-left: 60px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -1372,15 +1524,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
                         <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="90" class="step-icon">
                             <a name="2-2-3"></a>
                                 <span style="margin-left: 60px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -1394,15 +1546,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
                         <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="90" class="step-icon">
                             <a name="2-2-4"></a>
                                 <span style="margin-left: 60px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -1416,7 +1568,7 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
                         <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
 
@@ -1427,10 +1579,10 @@
                                 </table>
                             </td>
                         </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-FAILURE">
                         <td colspan="2"></td>
-                    <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>7.32s</em></span></td>
+                    <td width="130"><span class="top-level-step"><em>FAILURE</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>1.8s</em></span></td>
                 </tr>
 
             </table>

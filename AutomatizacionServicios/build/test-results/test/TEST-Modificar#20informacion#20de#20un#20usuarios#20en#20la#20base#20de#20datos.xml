@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Modificar informacion de un usuarios en la base de datos" tests="4" skipped="0" failures="4" errors="0" timestamp="2023-04-26T15:25:45" hostname="LAPTOP-7C2GORMF" time="2.574">
+<testsuite name="Modificar informacion de un usuarios en la base de datos" tests="4" skipped="0" failures="4" errors="0" timestamp="2023-04-26T18:05:17" hostname="LAPTOP-7C2GORMF" time="2.509">
   <properties/>
-  <testcase name="Peticion exitosa" classname="Modificar informacion de un usuarios en la base de datos" time="0.744">
-    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;JSON path mail doesn't match.&#10;Expected: esogaviria@gmail.com&#10;  Actual: null&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
-JSON path mail doesn't match.
-Expected: esogaviria@gmail.com
-  Actual: null
+  <testcase name="Peticion exitosa" classname="Modificar informacion de un usuarios en la base de datos" time="0.642">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
 
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
@@ -14,11 +12,11 @@ Expected: esogaviria@gmail.com
 	at ✽.recibo 200 como respuesta(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/putuser.feature:10)
 </failure>
   </testcase>
-  <testcase name="Peticion exitosa" classname="Modificar informacion de un usuarios en la base de datos" time="0.603">
-    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;JSON path fullName doesn't match.&#10;Expected: Efrains&#10;  Actual: Efrain&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+  <testcase name="Peticion exitosa" classname="Modificar informacion de un usuarios en la base de datos" time="0.605">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;JSON path fullName doesn't match.&#10;Expected: Efrains&#10;  Actual: Bruno 2&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
 JSON path fullName doesn't match.
 Expected: Efrains
-  Actual: Efrain
+  Actual: Bruno 2
 
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
@@ -27,11 +25,9 @@ Expected: Efrains
 	at ✽.recibo 200 como respuesta(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/putuser.feature:10)
 </failure>
   </testcase>
-  <testcase name="Peticion exitosa" classname="Modificar informacion de un usuarios en la base de datos" time="0.6">
-    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;JSON path fullName doesn't match.&#10;Expected: laura&#10;  Actual: lisa&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
-JSON path fullName doesn't match.
-Expected: laura
-  Actual: lisa
+  <testcase name="Peticion exitosa" classname="Modificar informacion de un usuarios en la base de datos" time="0.543">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
 
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
@@ -40,11 +36,9 @@ Expected: laura
 	at ✽.recibo 200 como respuesta(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/putuser.feature:10)
 </failure>
   </testcase>
-  <testcase name="Peticion exitosa" classname="Modificar informacion de un usuarios en la base de datos" time="0.627">
-    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;JSON path fullName doesn't match.&#10;Expected: laura&#10;  Actual: lisa&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
-JSON path fullName doesn't match.
-Expected: laura
-  Actual: lisa
+  <testcase name="Peticion exitosa" classname="Modificar informacion de un usuarios en la base de datos" time="0.718">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
 
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
@@ -73,21 +67,19 @@ Body:
     "values": "true",
     "role": "User"
 }
-HTTP/1.1 200 OK
+HTTP/1.1 404 Not Found
 x-powered-by: Express
 access-control-allow-origin: *
 content-type: application/json; charset=utf-8
-content-length: 100
-etag: W/"64-ZgS3SnSDApe5gFz99LegpQBiacw"
-date: Wed, 26 Apr 2023 15:25:46 GMT
+content-length: 66
+etag: W/"42-eP4IlQrjzv2ZV7q6fwUsyWxQEaY"
+date: Wed, 26 Apr 2023 18:05:17 GMT
 server: railway
 
 {
-    "fullName": "Andres",
-    "email": "esogaviria@gmail.com.com",
-    "role": "Admin",
-    "level": "3",
-    "available": true
+    "statusCode": 404,
+    "message": "User not found!",
+    "error": "Not Found"
 }
 Request method:	PUT
 Request URI:	https://reto-q-backend-production.up.railway.app/user/updateUser/6448009e290ed9efcf934420
@@ -113,14 +105,14 @@ HTTP/1.1 200 OK
 x-powered-by: Express
 access-control-allow-origin: *
 content-type: application/json; charset=utf-8
-content-length: 93
-etag: W/"5d-aCIDk+MVHhHB4tf9uhUVs/bUgNc"
-date: Wed, 26 Apr 2023 15:25:46 GMT
+content-length: 117
+etag: W/"75-GAr++YX29BPtdkhJ3sNl1n1w43U"
+date: Wed, 26 Apr 2023 18:05:18 GMT
 server: railway
 
 {
-    "fullName": "Efrain",
-    "email": "efsolora@gmail.com",
+    "fullName": "Bruno 2",
+    "email": "bruno.fernandez.r@estudiantes.utec.edu.uy",
     "role": "User",
     "level": "2",
     "available": true
@@ -145,21 +137,19 @@ Body:
     "values": "true",
     "role": "Admin"
 }
-HTTP/1.1 200 OK
+HTTP/1.1 404 Not Found
 x-powered-by: Express
 access-control-allow-origin: *
 content-type: application/json; charset=utf-8
-content-length: 97
-etag: W/"61-UcZkV5mtj1EwuYZC3omMntL9l8E"
-date: Wed, 26 Apr 2023 15:25:47 GMT
+content-length: 66
+etag: W/"42-eP4IlQrjzv2ZV7q6fwUsyWxQEaY"
+date: Wed, 26 Apr 2023 18:05:18 GMT
 server: railway
 
 {
-    "fullName": "lisa",
-    "email": "earrieta58@gmail.com.com",
-    "role": "User",
-    "level": "3",
-    "available": true
+    "statusCode": 404,
+    "message": "User not found!",
+    "error": "Not Found"
 }
 Request method:	PUT
 Request URI:	https://reto-q-backend-production.up.railway.app/user/updateUser/64483a9bfbc80a45d9c97a4a
@@ -181,38 +171,36 @@ Body:
     "values": "true",
     "role": "User"
 }
-HTTP/1.1 200 OK
+HTTP/1.1 404 Not Found
 x-powered-by: Express
 access-control-allow-origin: *
 content-type: application/json; charset=utf-8
-content-length: 97
-etag: W/"61-UcZkV5mtj1EwuYZC3omMntL9l8E"
-date: Wed, 26 Apr 2023 15:25:47 GMT
+content-length: 66
+etag: W/"42-eP4IlQrjzv2ZV7q6fwUsyWxQEaY"
+date: Wed, 26 Apr 2023 18:05:19 GMT
 server: railway
 
 {
-    "fullName": "lisa",
-    "email": "earrieta58@gmail.com.com",
-    "role": "User",
-    "level": "3",
-    "available": true
+    "statusCode": 404,
+    "message": "User not found!",
+    "error": "Not Found"
 }
 ]]></system-out>
-  <system-err><![CDATA[abr. 26, 2023 10:25:45 A. M. com.sofkau.stepdefinitions.PutUserStepDefinition que_estoy_en_el_API_Reto_Q
+  <system-err><![CDATA[abr. 26, 2023 1:05:17 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition que_estoy_en_el_API_Reto_Q
 INFO: INICIA LA AUTOMATIZACION
-abr. 26, 2023 10:25:46 A. M. com.sofkau.stepdefinitions.PutUserStepDefinition envio_la_peticion_put_con_el_del_usuario_con_los_datos
+abr. 26, 2023 1:05:17 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition envio_la_peticion_put_con_el_del_usuario_con_los_datos
 INFO: Realiza la peticion
-abr. 26, 2023 10:25:46 A. M. com.sofkau.stepdefinitions.PutUserStepDefinition que_estoy_en_el_API_Reto_Q
+abr. 26, 2023 1:05:17 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition que_estoy_en_el_API_Reto_Q
 INFO: INICIA LA AUTOMATIZACION
-abr. 26, 2023 10:25:46 A. M. com.sofkau.stepdefinitions.PutUserStepDefinition envio_la_peticion_put_con_el_del_usuario_con_los_datos
+abr. 26, 2023 1:05:18 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition envio_la_peticion_put_con_el_del_usuario_con_los_datos
 INFO: Realiza la peticion
-abr. 26, 2023 10:25:46 A. M. com.sofkau.stepdefinitions.PutUserStepDefinition que_estoy_en_el_API_Reto_Q
+abr. 26, 2023 1:05:18 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition que_estoy_en_el_API_Reto_Q
 INFO: INICIA LA AUTOMATIZACION
-abr. 26, 2023 10:25:47 A. M. com.sofkau.stepdefinitions.PutUserStepDefinition envio_la_peticion_put_con_el_del_usuario_con_los_datos
+abr. 26, 2023 1:05:18 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition envio_la_peticion_put_con_el_del_usuario_con_los_datos
 INFO: Realiza la peticion
-abr. 26, 2023 10:25:47 A. M. com.sofkau.stepdefinitions.PutUserStepDefinition que_estoy_en_el_API_Reto_Q
+abr. 26, 2023 1:05:18 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition que_estoy_en_el_API_Reto_Q
 INFO: INICIA LA AUTOMATIZACION
-abr. 26, 2023 10:25:48 A. M. com.sofkau.stepdefinitions.PutUserStepDefinition envio_la_peticion_put_con_el_del_usuario_con_los_datos
+abr. 26, 2023 1:05:19 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition envio_la_peticion_put_con_el_del_usuario_con_los_datos
 INFO: Realiza la peticion
 ]]></system-err>
 </testsuite>

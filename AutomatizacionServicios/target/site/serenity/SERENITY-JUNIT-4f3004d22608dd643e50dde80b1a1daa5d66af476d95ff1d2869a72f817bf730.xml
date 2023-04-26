@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="Crear usuario ne la base de datos" skipped="0" tests="12" time="7.6" timestamp="2023-04-26 10:25:37"><testcase name="Peticion exitosa"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="Crear usuario ne la base de datos" skipped="0" tests="12" time="7.28" timestamp="2023-04-26 01:05:09"><testcase name="Peticion exitosa"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;201&gt; but was &lt;500&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;201&gt; but was &lt;500&gt;.

@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">2.574s</div>
+<div class="counter">2.508s</div>
 <p>duration</p>
 </div>
 </td>
@@ -80,26 +80,7 @@
 <h3 class="failures">Peticion exitosa</h3>
 <span class="code">
 <pre>java.lang.AssertionError: 1 expectation failed.
-JSON path fullName doesn't match.
-Expected: laura
-  Actual: lisa
-
-	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
-	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
-	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
-	at com.sofkau.stepdefinitions.PutUserStepDefinition.recibo_como_respuesta(PutUserStepDefinition.java:59)
-	at ✽.recibo 200 como respuesta(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/putuser.feature:10)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="Peticion exitosa"></a>
-<h3 class="failures">Peticion exitosa</h3>
-<span class="code">
-<pre>java.lang.AssertionError: 1 expectation failed.
-JSON path fullName doesn't match.
-Expected: laura
-  Actual: lisa
+Expected status code &lt;200&gt; but was &lt;404&gt;.
 
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
@@ -116,7 +97,7 @@ Expected: laura
 <pre>java.lang.AssertionError: 1 expectation failed.
 JSON path fullName doesn't match.
 Expected: Efrains
-  Actual: Efrain
+  Actual: Bruno 2
 
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
@@ -131,9 +112,22 @@ Expected: Efrains
 <h3 class="failures">Peticion exitosa</h3>
 <span class="code">
 <pre>java.lang.AssertionError: 1 expectation failed.
-JSON path mail doesn't match.
-Expected: esogaviria@gmail.com
-  Actual: null
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.PutUserStepDefinition.recibo_como_respuesta(PutUserStepDefinition.java:59)
+	at ✽.recibo 200 como respuesta(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/putuser.feature:10)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Peticion exitosa"></a>
+<h3 class="failures">Peticion exitosa</h3>
+<span class="code">
+<pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
 
 	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
 	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
@@ -156,22 +150,22 @@ Expected: esogaviria@gmail.com
 </thead>
 <tr>
 <td class="failures">Peticion exitosa</td>
-<td class="failures">0.627s</td>
+<td class="failures">0.718s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">Peticion exitosa</td>
-<td class="failures">0.600s</td>
+<td class="failures">0.605s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">Peticion exitosa</td>
-<td class="failures">0.603s</td>
+<td class="failures">0.642s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">Peticion exitosa</td>
-<td class="failures">0.744s</td>
+<td class="failures">0.543s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -199,21 +193,19 @@ Body:
     &quot;values&quot;: &quot;true&quot;,
     &quot;role&quot;: &quot;User&quot;
 }
-HTTP/1.1 200 OK
+HTTP/1.1 404 Not Found
 x-powered-by: Express
 access-control-allow-origin: *
 content-type: application/json; charset=utf-8
-content-length: 100
-etag: W/&quot;64-ZgS3SnSDApe5gFz99LegpQBiacw&quot;
-date: Wed, 26 Apr 2023 15:25:46 GMT
+content-length: 66
+etag: W/&quot;42-eP4IlQrjzv2ZV7q6fwUsyWxQEaY&quot;
+date: Wed, 26 Apr 2023 18:05:17 GMT
 server: railway
 
 {
-    &quot;fullName&quot;: &quot;Andres&quot;,
-    &quot;email&quot;: &quot;esogaviria@gmail.com.com&quot;,
-    &quot;role&quot;: &quot;Admin&quot;,
-    &quot;level&quot;: &quot;3&quot;,
-    &quot;available&quot;: true
+    &quot;statusCode&quot;: 404,
+    &quot;message&quot;: &quot;User not found!&quot;,
+    &quot;error&quot;: &quot;Not Found&quot;
 }
 Request method:	PUT
 Request URI:	https://reto-q-backend-production.up.railway.app/user/updateUser/6448009e290ed9efcf934420
@@ -239,14 +231,14 @@ HTTP/1.1 200 OK
 x-powered-by: Express
 access-control-allow-origin: *
 content-type: application/json; charset=utf-8
-content-length: 93
-etag: W/&quot;5d-aCIDk+MVHhHB4tf9uhUVs/bUgNc&quot;
-date: Wed, 26 Apr 2023 15:25:46 GMT
+content-length: 117
+etag: W/&quot;75-GAr++YX29BPtdkhJ3sNl1n1w43U&quot;
+date: Wed, 26 Apr 2023 18:05:18 GMT
 server: railway
 
 {
-    &quot;fullName&quot;: &quot;Efrain&quot;,
-    &quot;email&quot;: &quot;efsolora@gmail.com&quot;,
+    &quot;fullName&quot;: &quot;Bruno 2&quot;,
+    &quot;email&quot;: &quot;bruno.fernandez.r@estudiantes.utec.edu.uy&quot;,
     &quot;role&quot;: &quot;User&quot;,
     &quot;level&quot;: &quot;2&quot;,
     &quot;available&quot;: true
@@ -271,21 +263,19 @@ Body:
     &quot;values&quot;: &quot;true&quot;,
     &quot;role&quot;: &quot;Admin&quot;
 }
-HTTP/1.1 200 OK
+HTTP/1.1 404 Not Found
 x-powered-by: Express
 access-control-allow-origin: *
 content-type: application/json; charset=utf-8
-content-length: 97
-etag: W/&quot;61-UcZkV5mtj1EwuYZC3omMntL9l8E&quot;
-date: Wed, 26 Apr 2023 15:25:47 GMT
+content-length: 66
+etag: W/&quot;42-eP4IlQrjzv2ZV7q6fwUsyWxQEaY&quot;
+date: Wed, 26 Apr 2023 18:05:18 GMT
 server: railway
 
 {
-    &quot;fullName&quot;: &quot;lisa&quot;,
-    &quot;email&quot;: &quot;earrieta58@gmail.com.com&quot;,
-    &quot;role&quot;: &quot;User&quot;,
-    &quot;level&quot;: &quot;3&quot;,
-    &quot;available&quot;: true
+    &quot;statusCode&quot;: 404,
+    &quot;message&quot;: &quot;User not found!&quot;,
+    &quot;error&quot;: &quot;Not Found&quot;
 }
 Request method:	PUT
 Request URI:	https://reto-q-backend-production.up.railway.app/user/updateUser/64483a9bfbc80a45d9c97a4a
@@ -307,21 +297,19 @@ Body:
     &quot;values&quot;: &quot;true&quot;,
     &quot;role&quot;: &quot;User&quot;
 }
-HTTP/1.1 200 OK
+HTTP/1.1 404 Not Found
 x-powered-by: Express
 access-control-allow-origin: *
 content-type: application/json; charset=utf-8
-content-length: 97
-etag: W/&quot;61-UcZkV5mtj1EwuYZC3omMntL9l8E&quot;
-date: Wed, 26 Apr 2023 15:25:47 GMT
+content-length: 66
+etag: W/&quot;42-eP4IlQrjzv2ZV7q6fwUsyWxQEaY&quot;
+date: Wed, 26 Apr 2023 18:05:19 GMT
 server: railway
 
 {
-    &quot;fullName&quot;: &quot;lisa&quot;,
-    &quot;email&quot;: &quot;earrieta58@gmail.com.com&quot;,
-    &quot;role&quot;: &quot;User&quot;,
-    &quot;level&quot;: &quot;3&quot;,
-    &quot;available&quot;: true
+    &quot;statusCode&quot;: 404,
+    &quot;message&quot;: &quot;User not found!&quot;,
+    &quot;error&quot;: &quot;Not Found&quot;
 }
 </pre>
 </span>
@@ -329,21 +317,21 @@ server: railway
 <div id="tab3" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>abr. 26, 2023 10:25:45 A. M. com.sofkau.stepdefinitions.PutUserStepDefinition que_estoy_en_el_API_Reto_Q
+<pre>abr. 26, 2023 1:05:17 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition que_estoy_en_el_API_Reto_Q
 INFO: INICIA LA AUTOMATIZACION
-abr. 26, 2023 10:25:46 A. M. com.sofkau.stepdefinitions.PutUserStepDefinition envio_la_peticion_put_con_el_del_usuario_con_los_datos
+abr. 26, 2023 1:05:17 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition envio_la_peticion_put_con_el_del_usuario_con_los_datos
 INFO: Realiza la peticion
-abr. 26, 2023 10:25:46 A. M. com.sofkau.stepdefinitions.PutUserStepDefinition que_estoy_en_el_API_Reto_Q
+abr. 26, 2023 1:05:17 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition que_estoy_en_el_API_Reto_Q
 INFO: INICIA LA AUTOMATIZACION
-abr. 26, 2023 10:25:46 A. M. com.sofkau.stepdefinitions.PutUserStepDefinition envio_la_peticion_put_con_el_del_usuario_con_los_datos
+abr. 26, 2023 1:05:18 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition envio_la_peticion_put_con_el_del_usuario_con_los_datos
 INFO: Realiza la peticion
-abr. 26, 2023 10:25:46 A. M. com.sofkau.stepdefinitions.PutUserStepDefinition que_estoy_en_el_API_Reto_Q
+abr. 26, 2023 1:05:18 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition que_estoy_en_el_API_Reto_Q
 INFO: INICIA LA AUTOMATIZACION
-abr. 26, 2023 10:25:47 A. M. com.sofkau.stepdefinitions.PutUserStepDefinition envio_la_peticion_put_con_el_del_usuario_con_los_datos
+abr. 26, 2023 1:05:18 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition envio_la_peticion_put_con_el_del_usuario_con_los_datos
 INFO: Realiza la peticion
-abr. 26, 2023 10:25:47 A. M. com.sofkau.stepdefinitions.PutUserStepDefinition que_estoy_en_el_API_Reto_Q
+abr. 26, 2023 1:05:18 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition que_estoy_en_el_API_Reto_Q
 INFO: INICIA LA AUTOMATIZACION
-abr. 26, 2023 10:25:48 A. M. com.sofkau.stepdefinitions.PutUserStepDefinition envio_la_peticion_put_con_el_del_usuario_con_los_datos
+abr. 26, 2023 1:05:19 P. M. com.sofkau.stepdefinitions.PutUserStepDefinition envio_la_peticion_put_con_el_del_usuario_con_los_datos
 INFO: Realiza la peticion
 </pre>
 </span>
@@ -356,7 +344,7 @@ INFO: Realiza la peticion
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.5.1</a> at 26/04/2023, 10:25:48 a. m.</p>
+<a href="http://www.gradle.org">Gradle 7.5.1</a> at 26/04/2023, 1:05:20 p. m.</p>
 </div>
 </div>
 </body>

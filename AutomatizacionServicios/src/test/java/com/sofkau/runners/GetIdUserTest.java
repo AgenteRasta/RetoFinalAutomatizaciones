@@ -11,5 +11,4 @@ import org.junit.runner.RunWith;
         glue = {"com.sofkau.stepdefinitions"},
         tags = {""}
 )
-public class GetIdUserTest {
-}
+public class GetIdUserTest {}

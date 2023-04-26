@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">0</div>
+<div class="counter">3</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">9.253s</div>
+<div class="counter">3.326s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
-<div class="percent">100%</div>
+<div class="infoBox failures" id="successRate">
+<div class="percent">50%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,16 +61,70 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Tests</a>
+<a href="#tab0">Failed tests</a>
 </li>
 <li>
-<a href="#tab1">Standard output</a>
+<a href="#tab1">Tests</a>
 </li>
 <li>
-<a href="#tab2">Standard error</a>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Peticion exitosa"></a>
+<h3 class="failures">Peticion exitosa</h3>
+<span class="code">
+<pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;500&gt;.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.GetIdUserStepDefinition.recibo_respuesta_y_la_informacion_del_usuario_y(GetIdUserStepDefinition.java:64)
+	at ✽.recibo 200 respuesta y la informacion del usuario &quot;Andres&quot;, &quot;esogaviria@gmail.com.com&quot; y &quot;Admin&quot;(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/getuserid.feature:10)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Peticion exitosa"></a>
+<h3 class="failures">Peticion exitosa</h3>
+<span class="code">
+<pre>java.lang.AssertionError: 
+Expected: &quot;Efrain&quot;
+     but: was &quot;Bruno 2&quot;
+
+Expected: &quot;efsolora@gmail.com&quot;
+     but: was &quot;bruno.fernandez.r@estudiantes.utec.edu.uy&quot;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.GetIdUserStepDefinition.recibo_respuesta_y_la_informacion_del_usuario_y(GetIdUserStepDefinition.java:64)
+	at ✽.recibo 200 respuesta y la informacion del usuario &quot;Efrain&quot;, &quot;efsolora@gmail.com&quot; y &quot;User&quot;(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/getuserid.feature:10)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Peticion exitosa"></a>
+<h3 class="failures">Peticion exitosa</h3>
+<span class="code">
+<pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;500&gt;.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.GetIdUserStepDefinition.recibo_respuesta_y_la_informacion_del_usuario_y(GetIdUserStepDefinition.java:64)
+	at ✽.recibo 200 respuesta y la informacion del usuario &quot;lisa&quot;, &quot;earrieta58@gmail.com.com&quot; y &quot;User&quot;(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/getuserid.feature:10)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -81,38 +135,38 @@
 </tr>
 </thead>
 <tr>
-<td class="success">Peticion exitosa</td>
-<td class="success">6.513s</td>
-<td class="success">passed</td>
+<td class="failures">Peticion exitosa</td>
+<td class="failures">0.603s</td>
+<td class="failures">failed</td>
 </tr>
 <tr>
-<td class="success">Peticion exitosa</td>
-<td class="success">0.554s</td>
-<td class="success">passed</td>
+<td class="failures">Peticion exitosa</td>
+<td class="failures">0.661s</td>
+<td class="failures">failed</td>
 </tr>
 <tr>
-<td class="success">Peticion exitosa</td>
-<td class="success">0.637s</td>
+<td class="failures">Peticion exitosa</td>
+<td class="failures">0.564s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">Peticion fallida</td>
+<td class="success">0.480s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">Peticion fallida</td>
-<td class="success">0.506s</td>
+<td class="success">0.469s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">Peticion fallida</td>
-<td class="success">0.492s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">Peticion fallida</td>
-<td class="success">0.551s</td>
+<td class="success">0.549s</td>
 <td class="success">passed</td>
 </tr>
 </table>
 </div>
-<div id="tab1" class="tab">
+<div id="tab2" class="tab">
 <h2>Standard output</h2>
 <span class="code">
 <pre>Request method:	GET
@@ -131,15 +185,15 @@ HTTP/1.1 200 OK
 x-powered-by: Express
 access-control-allow-origin: *
 content-type: application/json; charset=utf-8
-content-length: 126
-etag: W/&quot;7e-YYqTQs6BKqH7EJv8x9ifT6hEF+g&quot;
-date: Wed, 26 Apr 2023 15:25:32 GMT
+content-length: 150
+etag: W/&quot;96-F3ubrnAd8qsnneiBULs9+NnA4t4&quot;
+date: Wed, 26 Apr 2023 18:05:06 GMT
 server: railway
 
 {
     &quot;_id&quot;: &quot;6448009e290ed9efcf934420&quot;,
-    &quot;fullName&quot;: &quot;Efrain&quot;,
-    &quot;email&quot;: &quot;efsolora@gmail.com&quot;,
+    &quot;fullName&quot;: &quot;Bruno 2&quot;,
+    &quot;email&quot;: &quot;bruno.fernandez.r@estudiantes.utec.edu.uy&quot;,
     &quot;level&quot;: &quot;2&quot;,
     &quot;available&quot;: true,
     &quot;role&quot;: &quot;User&quot;
@@ -156,22 +210,19 @@ Headers:		Accept=*/*
 Cookies:		&lt;none&gt;
 Multiparts:		&lt;none&gt;
 Body:			&lt;none&gt;
-HTTP/1.1 200 OK
+HTTP/1.1 500 Internal Server Error
 x-powered-by: Express
 access-control-allow-origin: *
 content-type: application/json; charset=utf-8
-content-length: 133
-etag: W/&quot;85-OOcfn0fNO0OE/3hES2DW1ZS7tEg&quot;
-date: Wed, 26 Apr 2023 15:25:33 GMT
+content-length: 78
+etag: W/&quot;4e-tWYuIUMnteGqsMYQq/BNBWHqTyQ&quot;
+date: Wed, 26 Apr 2023 18:05:07 GMT
 server: railway
 
 {
-    &quot;_id&quot;: &quot;64481f6cfbc80a45d9c97945&quot;,
-    &quot;fullName&quot;: &quot;Andres&quot;,
-    &quot;email&quot;: &quot;esogaviria@gmail.com.com&quot;,
-    &quot;level&quot;: &quot;3&quot;,
-    &quot;available&quot;: true,
-    &quot;role&quot;: &quot;Admin&quot;
+    &quot;statusCode&quot;: 500,
+    &quot;message&quot;: &quot;User not found!&quot;,
+    &quot;error&quot;: &quot;Internal Server Error&quot;
 }
 Request method:	GET
 Request URI:	https://reto-q-backend-production.up.railway.app/user/getUser/64483a9bfbc80a45d9c97a4a
@@ -185,22 +236,19 @@ Headers:		Accept=*/*
 Cookies:		&lt;none&gt;
 Multiparts:		&lt;none&gt;
 Body:			&lt;none&gt;
-HTTP/1.1 200 OK
+HTTP/1.1 500 Internal Server Error
 x-powered-by: Express
 access-control-allow-origin: *
 content-type: application/json; charset=utf-8
-content-length: 130
-etag: W/&quot;82-FeLgns4mW38qQtYdsNwjwgCmbgg&quot;
-date: Wed, 26 Apr 2023 15:25:33 GMT
+content-length: 78
+etag: W/&quot;4e-tWYuIUMnteGqsMYQq/BNBWHqTyQ&quot;
+date: Wed, 26 Apr 2023 18:05:07 GMT
 server: railway
 
 {
-    &quot;_id&quot;: &quot;64483a9bfbc80a45d9c97a4a&quot;,
-    &quot;fullName&quot;: &quot;lisa&quot;,
-    &quot;email&quot;: &quot;earrieta58@gmail.com.com&quot;,
-    &quot;level&quot;: &quot;3&quot;,
-    &quot;available&quot;: true,
-    &quot;role&quot;: &quot;User&quot;
+    &quot;statusCode&quot;: 500,
+    &quot;message&quot;: &quot;User not found!&quot;,
+    &quot;error&quot;: &quot;Internal Server Error&quot;
 }
 Request method:	GET
 Request URI:	https://reto-q-backend-production.up.railway.app/user/getUser/%20%2064481f6cfbc80a45d9c97945
@@ -220,7 +268,7 @@ access-control-allow-origin: *
 content-type: application/json; charset=utf-8
 content-length: 197
 etag: W/&quot;c5-tiIzRAWEMNfh9ivoRdIqo8K0tQQ&quot;
-date: Wed, 26 Apr 2023 15:25:34 GMT
+date: Wed, 26 Apr 2023 18:05:08 GMT
 server: railway
 
 {
@@ -246,7 +294,7 @@ access-control-allow-origin: *
 content-type: application/json; charset=utf-8
 content-length: 76
 etag: W/&quot;4c-ukgxudIQY9DjTuvz0QcmdcTucS0&quot;
-date: Wed, 26 Apr 2023 15:25:34 GMT
+date: Wed, 26 Apr 2023 18:05:08 GMT
 server: railway
 
 {
@@ -272,7 +320,7 @@ access-control-allow-origin: *
 content-type: application/json; charset=utf-8
 content-length: 185
 etag: W/&quot;b9-E7kLYs9isR0+KR0qwU9hWbCWSBc&quot;
-date: Wed, 26 Apr 2023 15:25:35 GMT
+date: Wed, 26 Apr 2023 18:05:09 GMT
 server: railway
 
 {
@@ -283,44 +331,38 @@ server: railway
 </pre>
 </span>
 </div>
-<div id="tab2" class="tab">
+<div id="tab3" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>abr. 26, 2023 10:25:26 A. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition que_estoy_en_el_API
+<pre>abr. 26, 2023 1:05:06 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition que_estoy_en_el_API
 INFO: INICIA LA AUTOMATIZACION
-abr. 26, 2023 10:25:32 A. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition envio_la_peticion_get_con_el_del_usuario
+abr. 26, 2023 1:05:06 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition envio_la_peticion_get_con_el_del_usuario
 INFO: Realiza la peticion
-abr. 26, 2023 10:25:32 A. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition recibo_de_codigo_de_respuesta_y_la_informacion_del_usuario_y
-INFO: Se finaliza el step de la pokeApi
-abr. 26, 2023 10:25:32 A. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition que_estoy_en_el_API
+abr. 26, 2023 1:05:06 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition que_estoy_en_el_API
 INFO: INICIA LA AUTOMATIZACION
-abr. 26, 2023 10:25:33 A. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition envio_la_peticion_get_con_el_del_usuario
+abr. 26, 2023 1:05:07 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition envio_la_peticion_get_con_el_del_usuario
 INFO: Realiza la peticion
-abr. 26, 2023 10:25:33 A. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition recibo_de_codigo_de_respuesta_y_la_informacion_del_usuario_y
-INFO: Se finaliza el step de la pokeApi
-abr. 26, 2023 10:25:33 A. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition que_estoy_en_el_API
+abr. 26, 2023 1:05:07 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition que_estoy_en_el_API
 INFO: INICIA LA AUTOMATIZACION
-abr. 26, 2023 10:25:33 A. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition envio_la_peticion_get_con_el_del_usuario
+abr. 26, 2023 1:05:07 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition envio_la_peticion_get_con_el_del_usuario
 INFO: Realiza la peticion
-abr. 26, 2023 10:25:33 A. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition recibo_de_codigo_de_respuesta_y_la_informacion_del_usuario_y
-INFO: Se finaliza el step de la pokeApi
-abr. 26, 2023 10:25:33 A. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition que_estoy_en_el_API_Q
+abr. 26, 2023 1:05:07 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition que_estoy_en_el_API_Q
 INFO: INICIA LA AUTOMATIZACION
-abr. 26, 2023 10:25:34 A. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition envio_la_peticion_get_con_el_invalido
+abr. 26, 2023 1:05:08 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition envio_la_peticion_get_con_el_invalido
 INFO: Realiza la peticion
-abr. 26, 2023 10:25:34 A. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition recibo_de_codigo_de_respuesta
+abr. 26, 2023 1:05:08 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition recibo_de_respuesta
 INFO: Se finaliza el step de la API
-abr. 26, 2023 10:25:34 A. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition que_estoy_en_el_API_Q
+abr. 26, 2023 1:05:08 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition que_estoy_en_el_API_Q
 INFO: INICIA LA AUTOMATIZACION
-abr. 26, 2023 10:25:34 A. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition envio_la_peticion_get_con_el_invalido
+abr. 26, 2023 1:05:08 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition envio_la_peticion_get_con_el_invalido
 INFO: Realiza la peticion
-abr. 26, 2023 10:25:34 A. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition recibo_de_codigo_de_respuesta
+abr. 26, 2023 1:05:08 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition recibo_de_respuesta
 INFO: Se finaliza el step de la API
-abr. 26, 2023 10:25:34 A. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition que_estoy_en_el_API_Q
+abr. 26, 2023 1:05:08 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition que_estoy_en_el_API_Q
 INFO: INICIA LA AUTOMATIZACION
-abr. 26, 2023 10:25:35 A. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition envio_la_peticion_get_con_el_invalido
+abr. 26, 2023 1:05:09 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition envio_la_peticion_get_con_el_invalido
 INFO: Realiza la peticion
-abr. 26, 2023 10:25:35 A. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition recibo_de_codigo_de_respuesta
+abr. 26, 2023 1:05:09 P. M. com.sofkau.stepdefinitions.GetIdUserStepDefinition recibo_de_respuesta
 INFO: Se finaliza el step de la API
 </pre>
 </span>
@@ -333,7 +375,7 @@ INFO: Se finaliza el step de la API
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.5.1</a> at 26/04/2023, 10:25:48 a. m.</p>
+<a href="http://www.gradle.org">Gradle 7.5.1</a> at 26/04/2023, 1:05:20 p. m.</p>
 </div>
 </div>
 </body>
