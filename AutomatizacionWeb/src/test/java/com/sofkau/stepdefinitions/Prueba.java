@@ -17,10 +17,10 @@ public class Prueba extends SetUpWeb {
             configurarNavegador();
             theActorInTheSpotlight().wasAbleTo(
                     abrirPaginaInicial()
-                            .conLaPagina("https://www.demoblaze.com/index.html")
+                            .conLaPagina("https://despliegueretoq.web.app/app-home")
             );
         }catch (Exception e){
-            //quitarDriver();
+            quitarDriver();
         }
     }
 

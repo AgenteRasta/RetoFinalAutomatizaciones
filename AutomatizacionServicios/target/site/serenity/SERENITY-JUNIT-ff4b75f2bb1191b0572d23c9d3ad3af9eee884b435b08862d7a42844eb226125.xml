@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Ver informacion de un juego de pokemon" skipped="0" tests="4" time="3.45" timestamp="2023-04-24 10:54:36"><testcase name="Ver informacion de un juego de pokemon"><failure message="" type="org.opentest4j.AssertionFailedError"/><system-err>&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Ver informacion de un juego de pokemon" skipped="0" tests="4" time="3.46" timestamp="2023-04-24 11:06:42"><testcase name="Ver informacion de un juego de pokemon"><failure message="" type="org.opentest4j.AssertionFailedError"/><system-err>&#13;
 com.sofkau.stepdefinitions.PokeApiStepDefinition.reciboDeCodigoDeRespuestaYLaInformacionDelJuego(PokeApiStepDefinition.java:69)&#13;
-✽.recibo 404 de codigo de respuesta y la informacion del juego(file:///C:/Users/Rasta/Desktop/RetoFinalQA/AutomatizacionServicios/src/test/resources/features/VerJuegoPokemon.feature:10)&#13;
+✽.recibo 404 de codigo de respuesta y la informacion del juego(file:///C:/Users/Rasta/Desktop/AutomatizacionRetoFinal/AutomatizacionServicios/src/test/resources/features/VerJuegoPokemon.feature:10)&#13;
 </system-err></testcase></testsuite>

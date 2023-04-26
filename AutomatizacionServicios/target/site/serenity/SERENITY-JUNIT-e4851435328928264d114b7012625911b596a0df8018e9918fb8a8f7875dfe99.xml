@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="14" name="Crear pregunta" skipped="0" tests="21" time="14.53" timestamp="2023-04-26 11:24:14"><testcase name="Crear una pregunta"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;500&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;500&gt;.
+&#13;
+com.sofkau.stepdefinitions.CrearPreguntaStepDefinition.reciboDeCodigoDeRespuesta(CrearPreguntaStepDefinition.java:74)&#13;
+✽.recibo 201 de codigo de respuesta(file:///C:/Users/Rasta/Desktop/AutomatizacionesRetoFinalDefinitivo/AutomatizacionServicios/src/test/resources/features/crearpregunta.feature:10)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Eliminar pregunta" tests="21" skipped="0" failures="7" errors="0" timestamp="2023-04-26T16:24:46" hostname="DESKTOP-1MH7BUO" time="14.553">
+  <properties/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="3.697">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition.reciboUnDeRespuestaYEliminoLaPregunta(EliminarPreguntaStepDefinition.java:64)
+	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/Rasta/Desktop/AutomatizacionesRetoFinalDefinitivo/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
+</failure>
+  </testcase>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.588">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition.reciboUnDeRespuestaYEliminoLaPregunta(EliminarPreguntaStepDefinition.java:64)
+	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/Rasta/Desktop/AutomatizacionesRetoFinalDefinitivo/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
+</failure>
+  </testcase>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.548">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition.reciboUnDeRespuestaYEliminoLaPregunta(EliminarPreguntaStepDefinition.java:64)
+	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/Rasta/Desktop/AutomatizacionesRetoFinalDefinitivo/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
+</failure>
+  </testcase>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.666">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition.reciboUnDeRespuestaYEliminoLaPregunta(EliminarPreguntaStepDefinition.java:64)
+	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/Rasta/Desktop/AutomatizacionesRetoFinalDefinitivo/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
+</failure>
+  </testcase>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.561">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition.reciboUnDeRespuestaYEliminoLaPregunta(EliminarPreguntaStepDefinition.java:64)
+	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/Rasta/Desktop/AutomatizacionesRetoFinalDefinitivo/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
+</failure>
+  </testcase>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.569">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition.reciboUnDeRespuestaYEliminoLaPregunta(EliminarPreguntaStepDefinition.java:64)
+	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/Rasta/Desktop/AutomatizacionesRetoFinalDefinitivo/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
+</failure>
+  </testcase>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.567">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition.reciboUnDeRespuestaYEliminoLaPregunta(EliminarPreguntaStepDefinition.java:64)
+	at ✽.recibo un 200 de respuesta y elimino la pregunta(file:///C:/Users/Rasta/Desktop/AutomatizacionesRetoFinalDefinitivo/AutomatizacionServicios/src/test/resources/features/eliminarpregunta.feature:10)
+</failure>
+  </testcase>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.687"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.534"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.525"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.528"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.517"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.51"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.518"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.497"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.541"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.502"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.496"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.502"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.5"/>
+  <testcase name="Eliminar pregunta" classname="Eliminar pregunta" time="0.499"/>
+  <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489290
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 70
+etag: W/"46-+ypO62qrrekyt4xx1XRth2NhKDc"
+date: Wed, 26 Apr 2023 16:24:49 GMT
+server: railway
+
+{
+    "statusCode": 404,
+    "message": "Question not found!",
+    "error": "Not Found"
+}
+Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489291
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 70
+etag: W/"46-+ypO62qrrekyt4xx1XRth2NhKDc"
+date: Wed, 26 Apr 2023 16:24:50 GMT
+server: railway
+
+{
+    "statusCode": 404,
+    "message": "Question not found!",
+    "error": "Not Found"
+}
+Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489292
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 70
+etag: W/"46-+ypO62qrrekyt4xx1XRth2NhKDc"
+date: Wed, 26 Apr 2023 16:24:51 GMT
+server: railway
+
+{
+    "statusCode": 404,
+    "message": "Question not found!",
+    "error": "Not Found"
+}
+Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489293
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 70
+etag: W/"46-+ypO62qrrekyt4xx1XRth2NhKDc"
+date: Wed, 26 Apr 2023 16:24:52 GMT
+server: railway
+
+{
+    "statusCode": 404,
+    "message": "Question not found!",
+    "error": "Not Found"
+}
+Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489294
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 70
+etag: W/"46-+ypO62qrrekyt4xx1XRth2NhKDc"
+date: Wed, 26 Apr 2023 16:24:52 GMT
+server: railway
+
+{
+    "statusCode": 404,
+    "message": "Question not found!",
+    "error": "Not Found"
+}
+Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489295
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 70
+etag: W/"46-+ypO62qrrekyt4xx1XRth2NhKDc"
+date: Wed, 26 Apr 2023 16:24:53 GMT
+server: railway
+
+{
+    "statusCode": 404,
+    "message": "Question not found!",
+    "error": "Not Found"
+}
+Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489296
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 70
+etag: W/"46-+ypO62qrrekyt4xx1XRth2NhKDc"
+date: Wed, 26 Apr 2023 16:24:53 GMT
+server: railway
+
+{
+    "statusCode": 404,
+    "message": "Question not found!",
+    "error": "Not Found"
+}
+Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489297
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: text/html; charset=utf-8
+content-length: 4
+etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
+date: Wed, 26 Apr 2023 16:24:54 GMT
+server: railway
+
+<html>
+  <body>true</body>
+</html>
+Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489298
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: text/html; charset=utf-8
+content-length: 4
+etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
+date: Wed, 26 Apr 2023 16:24:55 GMT
+server: railway
+
+<html>
+  <body>true</body>
+</html>
+Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489299
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: text/html; charset=utf-8
+content-length: 4
+etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
+date: Wed, 26 Apr 2023 16:24:55 GMT
+server: railway
+
+<html>
+  <body>true</body>
+</html>
+Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489210
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: text/html; charset=utf-8
+content-length: 4
+etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
+date: Wed, 26 Apr 2023 16:24:56 GMT
+server: railway
+
+<html>
+  <body>true</body>
+</html>
+Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489211
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: text/html; charset=utf-8
+content-length: 4
+etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
+date: Wed, 26 Apr 2023 16:24:56 GMT
+server: railway
+
+<html>
+  <body>true</body>
+</html>
+Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489212
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: text/html; charset=utf-8
+content-length: 4
+etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
+date: Wed, 26 Apr 2023 16:24:57 GMT
+server: railway
+
+<html>
+  <body>true</body>
+</html>
+Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489213
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: text/html; charset=utf-8
+content-length: 4
+etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
+date: Wed, 26 Apr 2023 16:24:57 GMT
+server: railway
+
+<html>
+  <body>true</body>
+</html>
+Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489214
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: text/html; charset=utf-8
+content-length: 4
+etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
+date: Wed, 26 Apr 2023 16:24:58 GMT
+server: railway
+
+<html>
+  <body>true</body>
+</html>
+Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489215
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: text/html; charset=utf-8
+content-length: 4
+etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
+date: Wed, 26 Apr 2023 16:24:58 GMT
+server: railway
+
+<html>
+  <body>true</body>
+</html>
+Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489216
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: text/html; charset=utf-8
+content-length: 4
+etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
+date: Wed, 26 Apr 2023 16:24:59 GMT
+server: railway
+
+<html>
+  <body>true</body>
+</html>
+Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489217
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: text/html; charset=utf-8
+content-length: 4
+etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
+date: Wed, 26 Apr 2023 16:24:59 GMT
+server: railway
+
+<html>
+  <body>true</body>
+</html>
+Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489218
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: text/html; charset=utf-8
+content-length: 4
+etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
+date: Wed, 26 Apr 2023 16:25:00 GMT
+server: railway
+
+<html>
+  <body>true</body>
+</html>
+Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489219
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: text/html; charset=utf-8
+content-length: 4
+etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
+date: Wed, 26 Apr 2023 16:25:00 GMT
+server: railway
+
+<html>
+  <body>true</body>
+</html>
+Request method:	DELETE
+Request URI:	https://reto-q-backend-production.up.railway.app/question/delete/6445dd2187ccd7fd3c489220
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: text/html; charset=utf-8
+content-length: 4
+etag: W/"4-X/5TO4MPCKAyY0ipFgr6/IraRNs"
+date: Wed, 26 Apr 2023 16:25:01 GMT
+server: railway
+
+<html>
+  <body>true</body>
+</html>
+]]></system-out>
+  <system-err><![CDATA[abr. 26, 2023 11:24:47 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:24:47 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+abr. 26, 2023 11:24:50 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:24:50 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+abr. 26, 2023 11:24:51 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:24:51 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+abr. 26, 2023 11:24:51 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:24:51 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+abr. 26, 2023 11:24:52 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:24:52 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+abr. 26, 2023 11:24:52 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:24:52 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+abr. 26, 2023 11:24:53 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:24:53 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+abr. 26, 2023 11:24:54 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:24:54 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+abr. 26, 2023 11:24:54 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:24:54 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+abr. 26, 2023 11:24:55 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:24:55 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+abr. 26, 2023 11:24:55 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:24:55 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+abr. 26, 2023 11:24:56 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:24:56 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+abr. 26, 2023 11:24:56 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:24:56 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+abr. 26, 2023 11:24:57 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:24:57 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+abr. 26, 2023 11:24:57 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:24:57 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+abr. 26, 2023 11:24:58 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:24:58 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+abr. 26, 2023 11:24:58 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:24:58 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+abr. 26, 2023 11:24:59 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:24:59 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+abr. 26, 2023 11:24:59 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:24:59 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+abr. 26, 2023 11:25:00 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:25:00 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+abr. 26, 2023 11:25:00 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition queEstoyApuntandoConUnEndpointALaApirest
+INFORMACIÓN: Se inicia la automatizacion de las preguntas
+abr. 26, 2023 11:25:00 A. M. com.sofkau.stepdefinitions.EliminarPreguntaStepDefinition envioLaPeticionDeleteConElIdDeLaPreguntaMedianteSu
+INFORMACIÓN: 
+]]></system-err>
+</testsuite>
