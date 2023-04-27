@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="11" name="Crear pregunta" skipped="0" tests="21" time="21.25" timestamp="2023-04-26 01:04:23"><testcase name="Crear una pregunta"><failure message="&#10;Expected: a value greater than &lt;1&gt;&#10;     but: &lt;1&gt; was equal to &lt;1&gt;" type="java.lang.AssertionError">
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="11" name="Crear pregunta" skipped="0" tests="21" time="13.32" timestamp="2023-04-26 06:57:27"><testcase name="Crear una pregunta"><failure message="&#10;Expected: a value greater than &lt;1&gt;&#10;     but: &lt;1&gt; was equal to &lt;1&gt;" type="java.lang.AssertionError">
 Expected: a value greater than &lt;1&gt;
      but: &lt;1&gt; was equal to &lt;1&gt;</failure><system-err>
 Expected: a value greater than &lt;1&gt;
      but: &lt;1&gt; was equal to &lt;1&gt;&#13;
 com.sofkau.stepdefinitions.CrearPreguntaStepDefinition.laInformacionDeLaPreguntaCreada(CrearPreguntaStepDefinition.java:93)&#13;
-✽.la informacion de la pregunta creada(file:///C:/Users/rolin/Sofka%20U/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/crearpregunta.feature:11)&#13;
+✽.la informacion de la pregunta creada(file:///C:/Users/Rasta/Desktop/AutoFINAL/RetoFinalAutomatizaciones/AutomatizacionServicios/src/test/resources/features/crearpregunta.feature:11)&#13;
 </system-err></testcase></testsuite>
